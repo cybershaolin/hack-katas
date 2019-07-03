@@ -1,0 +1,36 @@
+{
+  "title": "Directory Commands in Linux",
+  "description": "Linux Commands for managing Directories.",
+  "details": {
+    "steps": [
+      {
+        "title": "pwd (Print Working Directory)",
+        "text": "linux-cmds-1-pwd.md"
+      },
+      {
+        "title": "cd (Change Directory)",
+        "text": "linux-cmds-2-cd.md"
+      },
+      {
+        "title": "mkdir (Make Directory)",
+        "text": "linux-cmds-3-mkdir.md"
+      },
+      {
+        "title": "rmdir (Remove Directory)",
+        "text": "linux-cmds-4-rmdir.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
