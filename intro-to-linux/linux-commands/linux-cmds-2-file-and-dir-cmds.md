@@ -1,10 +1,12 @@
-<h2>Single File Commands</h2>
+For all of the following commands, after you type it in the terminal, press enter to execute the command.
 
-<h3>ls</h3>
-List information about file(s)
+__Single File Commands__
 
-<h3>file</h3>
-Determine file type
+__ls__ : List information about file(s)
+Try `ls`{{execute}}  
+
+__file__: Determine file type
+Try `file`{{execute}}
 
 <h3>mount</h3>
 Mount a file system
