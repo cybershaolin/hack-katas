@@ -4,8 +4,12 @@
   "details": {
     "steps": [
       {
+        "title": "CaSe SeNsItIvE Commands",
+        "text": "linux-cmds-1-case-sensitive-cmds.md"        
+      },
+      {
         "title": "File & Directory Commands",
-        "text": "linux-cmds-1-file-and-dir-cmds.md"
+        "text": "linux-cmds-2-file-and-dir-cmds.md"
       },
       {
         "title": "Compression Commands",
