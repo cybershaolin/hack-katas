@@ -1,19 +1,18 @@
 __Categories / Types of Linux Commands__  
 There are various types of Linux commands as listed below.  
 
-- File Commands 
 - Directory Commands
-- Compression Commands
+- File Commands
 - Copy or Transfer Commands
 - Find Commands
-- Group Commands
+- Compression Commands
 - User Commands
+- Group Commands
 - Utilities Commands
-- Display or Print Commands
 - Software Commands
 - Shell or Terminal commands
 - Program or Process commands
 - Network Commands
 - Environment Commands
 - Security / File Permission Commands
-- Help Commands
+- Help Command  
