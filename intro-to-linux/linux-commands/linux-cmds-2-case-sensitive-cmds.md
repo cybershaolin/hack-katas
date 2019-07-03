@@ -1,7 +1,7 @@
 __Linux Commands are CaSe SeNsItIvE__  
 The first thing to know is that Linux commands are CaSe SeNsItIvE - meaning that if you type the commands in the wrong case (uppercase or lowercase or mixed-case), the command will not work and you will most likely get a “command not found” message on the terminal.  
 
-Type in `'date`{{execute}} and press enter.    
+Type in `date`{{execute}} and press enter.    
 You should see the date and timestamp displayed on your terminal screen.  
 
 Now type in `Date`{{execute}} (with an uppercase Date) and press enter.  
