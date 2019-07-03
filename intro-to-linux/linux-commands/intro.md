@@ -24,4 +24,4 @@ There are various types of commands. The commands you will learn are categorized
 - Help Commands
 
 __Linux Commands are Case Sensitive__  
-It is also important to know that Linux commands are CaSe SeNsItIvE - meaning that if you type the commands in the wrong case (uppercase or lowercase or mixedcase), the command will not work and you will most likely get a “command not found” message on the terminal
+It is also important to know that Linux commands are CaSe SeNsItIvE - meaning that if you type the commands in the wrong case (uppercase or lowercase or mixedcase), the command will not work and you will most likely get a “command not found” message on the terminal.  
