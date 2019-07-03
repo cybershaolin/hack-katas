@@ -9,11 +9,11 @@
       },
       {
         "title": "mkdir (Make Directory)",
-        "text": "linux-cmds-3-mkdir.md"
+        "text": "linux-cmds-2-mkdir.md"
       },
       {
         "title": "cd (Change Directory)",
-        "text": "linux-cmds-2-cd.md"
+        "text": "linux-cmds-3-cd.md"
       },
       {
         "title": "rmdir (Remove Directory)",
