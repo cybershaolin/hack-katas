@@ -32,8 +32,12 @@
         "text": "linux-os-7-shell.md"
       },
       {
+        "title": "Distros",
+        "text": "linux-os-8-distros.md"
+      },
+      {
         "title": "Why Linux?",
-        "text": "linux-os-8-why-linux.md"
+        "text": "linux-os-9-why-linux.md"
       }
     ],
     "intro": {
