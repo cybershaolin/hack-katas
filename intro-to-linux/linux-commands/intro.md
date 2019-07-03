@@ -3,7 +3,7 @@ Most movies or TV shows that show someone hacking, usually show you a screen (ak
 However most hacking tools are command line driven and if you want to learn hacking, it is very important that you become very familiar with how to use the linux command line and the basic and advance Linux commands.
 Here, you will learn about some basic and advance Linux commands.  
 
-__Categories / Types of Linux Commands__
+__Categories / Types of Linux Commands__  
 There are various types of commands. The commands you will learn are categorized into different kinds of commands.  
 - Directory Commands
 - File Commands
@@ -22,6 +22,3 @@ There are various types of commands. The commands you will learn are categorized
 - Environment Commands
 - Security / File Permission Commands
 - Help Commands
-
-__Linux Commands are Case Sensitive__  
-It is also important to know that Linux commands are CaSe SeNsItIvE - meaning that if you type the commands in the wrong case (uppercase or lowercase or mixedcase), the command will not work and you will most likely get a “command not found” message on the terminal.  
