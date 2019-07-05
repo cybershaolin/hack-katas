@@ -1,5 +1,5 @@
 {
-  "pathwayTitle": "Intro to Linux",
+  "pathwayTitle": "Introduction to Linux",
   "title": "Linux OS",
   "description": "Linux Operating System.",
   "difficulty": "Beginner",
@@ -45,7 +45,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "CyberShaolin",
+      "credits": "&copy; CyberShaolin",
       "code": "setupEnv.sh"
     },
     "finish": {
