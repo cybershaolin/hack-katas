@@ -46,7 +46,7 @@
     "intro": {
       "text": "intro.md",
       "credits": "CyberShaolin",
-      "courseData": "setupEnv.sh"
+      "code": "setupEnv.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -61,6 +61,6 @@
     "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
