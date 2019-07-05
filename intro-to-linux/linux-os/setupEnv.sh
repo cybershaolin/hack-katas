@@ -5,4 +5,4 @@ echo "Finding out Container ID"
 docker ps --format "{{.ID}}"
 
 echo "Connecting to the Docker Container"
-docker exec -it $(docker ps --format "{{.ID}}) /bin/bash
+docker exec -it $(docker ps --format "{{.ID}}") /bin/bash
