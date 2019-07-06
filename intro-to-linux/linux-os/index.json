@@ -52,6 +52,7 @@
     }
   },
   "environment": {
+    "icon":"fa-ubuntu",
     "showdashboard": true,
     "dashboards": [{"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
     "uilayout": "terminal",
