@@ -1,10 +1,7 @@
 echo "Creating Docker Environment"
-docker run -p 8080:80 -d cybershaolin/linux-cmds:hackercise
+docker run -it cybershaolin/linux-cmds:hackercise /bin/bash
 
-echo "Finding out Container ID"
-docker ps --format "{{.ID}}"
-
-echo "Connecting to the Docker Container"
-docker exec -it $(docker ps --format "{{.ID}}") /bin/bash
+#echo "Finding out Container ID"
+#docker ps --format "{{.ID}}"
 
 #clear
