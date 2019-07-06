@@ -1,4 +1,4 @@
-`cd`{{execute}} stands for Change Directory.  
+`cd` stands for Change Directory.  
 
 In the previous step, you created a folder called `myGames`  
 

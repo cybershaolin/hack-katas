@@ -1,4 +1,4 @@
-`mkdir`{{execute}} stands for Make Directory.  
+`mkdir` stands for Make Directory.  
 It is used to create a folder or directory so that you can be organized.  
 
 You can think of directories like a bookshelf. In the top shelf you may have your school books, the middle shelf may have some fiction books and the bottom shelf may contain some activity books. So also in a computer system, you can organize your files in directories.   

@@ -1,8 +1,8 @@
-`pwd`{{execute}} stands for Print Working Directory.  
+`pwd` stands for Print Working Directory.  
 
 Some examples of directories in the Linux OS are `/root, /boot, /bin, /opt, /run, /usr` and `/home`.
 
-The `pwd` command tells you the current folder where you are.  
+The `pwd`{{execute}} command tells you the current folder where you are.  
 
 The default directory that you start out with is the home directory of the user who is logged in.  
 
