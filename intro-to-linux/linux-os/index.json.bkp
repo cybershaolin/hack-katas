@@ -46,6 +46,7 @@
     "intro": {
       "text": "intro.md",
       "credits": "&copy; CyberShaolin",
+      "code": "setupEnv.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -53,7 +54,10 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "dashboards": [{"name": "Display 80", "port": 80},
+    {"name": "Display 8080", "port": 8080},
+    {"name": "Docker Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
   },
