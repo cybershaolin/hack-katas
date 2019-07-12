@@ -9,7 +9,3 @@ The default directory that you start out with is the home directory of the user 
 If you are the root user, your first directory would be `/`.
 
 If you are a user named `duke`, then your home directory would be `/home/duke`
-
-To list the contents of the directory, you can use the `ls` command.
-
-Type `ls`
