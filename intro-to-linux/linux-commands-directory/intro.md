@@ -3,7 +3,7 @@ If you are wondering, what is a directory - another name for directory is folder
 Directory commands are used to manage and manipulate directories and files in directories.  
 
 Some of the most common directory commands that you need to know are:   
-- pwd Print Working Directory
-- mkdir Create new folder(s)
-- cd (CD wont work) cd Change Directory
-- rmdir Remove folder(s)
+- pwd: Print Working Directory
+- mkdir: Create new folder(s)
+- cd: Change Directory
+- rmdir: Remove folder(s)
