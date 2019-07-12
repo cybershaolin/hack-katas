@@ -4,6 +4,7 @@ Directory commands are used to manage and manipulate directories and files in di
 
 Some of the most common directory commands that you need to know are:   
 - pwd: Print Working Directory
-- mkdir: Create new folder(s)
+- ls: List Directory Contents
+- mkdir: Create New Folder(s)
 - cd: Change Directory
-- rmdir: Remove folder(s)
+- rmdir: Remove Folder(s)
