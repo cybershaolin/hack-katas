@@ -11,12 +11,12 @@
         "text": "linux-cmds-1-pwd.md"
       },
       {
-        "title": "cd (Change Directory)",
-        "text": "linux-cmds-2-cd.md"
+        "title": "ls (List Directory Contents)",
+        "text": "linux-cmds-2-ls.md"
       },
       {
-        "title": "ls (List Directory Contents)",
-        "text": "linux-cmds-3-ls.md"
+        "title": "cd (Change Directory)",
+        "text": "linux-cmds-3-cd.md"
       },
       {
         "title": "mkdir (Make Directory)",
