@@ -23,6 +23,12 @@
       },
       {
         "pathway_id": "intro-to-linux",
+        "course_id": "linux-commands-file",
+        "title": "File Commands",
+        "description": "Linux Commands for working with Files"
+      },
+      {
+        "pathway_id": "intro-to-linux",
         "course_id": "linux-commands-hackercise",
         "title": "Hackercise - Treasure Hunt using Command Line",
         "description": "Hands On exercise to practice Linux Commands"
