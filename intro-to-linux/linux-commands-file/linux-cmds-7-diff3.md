@@ -17,4 +17,4 @@ __The DeathStars of the rm Commands__
 Never ever, never ever, never ever run the following command   
 `rm -rf *.*`  
 unless you absolutely know that you are in the directory from which you want to delete ALL folders and files.   
-The `*.*` here is a wildcard syntax to mean any files of any type. 
+The `*.*` here is a wildcard syntax to mean any files of any type.

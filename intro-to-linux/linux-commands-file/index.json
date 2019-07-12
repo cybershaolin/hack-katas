@@ -11,32 +11,28 @@
         "text": "linux-cmds-1-cat.md"
       },
       {
-        "title": "ls (List)",
-        "text": "linux-cmds-2-ls.md"
-      },
-      {
         "title": "file (Determine file type)",
-        "text": "linux-cmds-3-file.md"
+        "text": "linux-cmds-2-file.md"
       },
       {
         "title": "touch (Change file timestamp)",
-        "text": "linux-cmds-4-touch.md"
+        "text": "linux-cmds-3-touch.md"
       },
       {
         "title": "mv (Move or Rename a file)",
-        "text": "linux-cmds-5-mv.md"
+        "text": "linux-cmds-4-mv.md"
       },
       {
         "title": "rm (Remove or delete file(s))",
-        "text": "linux-cmds-6-rm.md"
+        "text": "linux-cmds-5-rm.md"
       },
       {
         "title": "diff (Show the difference between two files)",
-        "text": "linux-cmds-7-diff.md"
+        "text": "linux-cmds-6-diff.md"
       },
       {
         "title": "diff3 (Show the difference between three files)",
-        "text": "linux-cmds-8-diff3.md"
+        "text": "linux-cmds-7-diff3.md"
       }
     ],
     "intro": {

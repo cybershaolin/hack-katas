@@ -11,16 +11,20 @@
         "text": "linux-cmds-1-pwd.md"
       },
       {
-        "title": "mkdir (Make Directory)",
-        "text": "linux-cmds-2-mkdir.md"
+        "title": "ls (List Directory Contents)",
+        "text": "linux-cmds-2-ls.md"
       },
       {
         "title": "cd (Change Directory)",
         "text": "linux-cmds-3-cd.md"
       },
       {
+        "title": "mkdir (Make Directory)",
+        "text": "linux-cmds-4-mkdir.md"
+      },
+      {
         "title": "rmdir (Remove Directory)",
-        "text": "linux-cmds-4-rmdir.md"
+        "text": "linux-cmds-5-rmdir.md"
       }
     ],
     "intro": {
