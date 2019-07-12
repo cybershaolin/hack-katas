@@ -4,9 +4,14 @@ The `ls` command displays the names of files contained within a directory, as we
 
 Type `ls`{{execute}} and hit enter.
 
-You should see several directories. One directory that is of interest that we will use for our learning is the `cybershaolin` directory.
+Let us create six files with superhero names.
+Type `touch aquaman.txt batman.txt flash.txt superman.txt wonderwoman.txt .ironman.txt`{{execute}} and press enter.
+__Note:__ Don't forget to add the dot `.` in front of ironman.txt
 
-But do you see a folder called `secrets` listed?
+Now type `ls`{{execute}} and hit enter.
+
+How many files do you see? You should see only five files, although you created six.
+Do you see the file `ironman.txt` file?
 
 __Hidden Files__
 Files that are named with a dot `(.)` are hidden and not shown when you run the `ls` command.
@@ -14,7 +19,7 @@ To see hidden files, we need to modify the `ls` command with some additional inf
 
 Type `ls -a`{{execute}} and press enter.
 The `-a` operands will list directory entries whose names begin with a dot (.) and are hidden.
-You should see now see a directory called `.secrets`.
+You should see six files including the `ironman.txt` file.
 
 Another operand that is often used with the `ls` command is the `-l` operand.
 The `-l` operand lists the file in long format. If the output is to a terminal, a total sum for all the file sizes is output on a line before the long listing.  
