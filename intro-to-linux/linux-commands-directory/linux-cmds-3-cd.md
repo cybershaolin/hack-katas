@@ -11,6 +11,7 @@ Now type `ls`{{execute}} and press enter and you will see that there is a text f
 
 __cd and ../(DotDotSlash))__  
 In order to go to the previous folder, you can use the shortform `../` (DotDotSlash) along with the `cd` command.  
-Since you are in the `.secrets` directory now, you can go to the previous directory using the `cd ../`{{execute}} command.
+Since you are in the `.secrets` directory now, you can go to the previous directory using the `cd ../` command.
 
-Type `cd ../`{{execute}} and you will find yourself back at the `/` directory. By typing `ls - la`{{execute}}, you will find that you are indeed in the `/` directory.
+Type `cd ../`{{execute}} and you will find yourself back at the `/` directory.
+By typing `ls - la`{{execute}}, you will find that you are indeed in the `/` directory.

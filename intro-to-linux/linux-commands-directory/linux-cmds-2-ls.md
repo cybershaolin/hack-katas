@@ -31,4 +31,5 @@ If the -l option is given, the following information is displayed for each file:
 - hour file last modified,
 - minute file last modified,
 - and the pathname.  
+
 In addition, for each directory whose contents are displayed, the total number of 512-byte blocks used by the files in the directory is displayed on a line by itself, immediately before the information for the files in the directory.
