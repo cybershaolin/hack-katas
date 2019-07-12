@@ -1,25 +1,39 @@
-`cd` stands for Change Directory.  
+`ls` stands for list directory contents.  
 
-In the previous step, you created a folder called `myGames`  
+The `ls` command displays the names of files contained within a directory, as well as any requested, associated information.
 
-Now let us get into that directory. To do that, you will need to change your directory from where you are (in this case `/root`) to the `myGames` directory.  
+Type `ls`{{execute}} and hit enter.
 
-Type `cd myGames`{{execute}} and press enter.  
+Let us create six files with superhero names.
+Type `touch aquaman.txt batman.txt flash.txt superman.txt wonderwoman.txt .ironman.txt`{{execute}} and press enter.
+__Note:__ Don't forget to add the dot `.` in front of ironman.txt
 
-You are now in the `myGames` directory.  
+Now type `ls`{{execute}} and hit enter.
 
-To be sure that you are in the `myGames` directory, what directory command do you think you can use.    
+How many files do you see? You should see only five files, although you created six.
+Do you see the file `ironman.txt` file?
 
-If you said, `pwd`, you got that right. The `pwd` or Print Working Directory command will show you that you are in the `myGames` directory.  
+__Hidden Files__
+Files that are named with a dot `(.)` are hidden and not shown when you run the `ls` command.
+To see hidden files, we need to modify the `ls` command with some additional information. This additional information that is added to a Linux command is called an operand.
 
-Now you can go ahead and create your favorite game files in this folder, but are we getting ahead of ourselves?  
+Type `ls -a`{{execute}} and press enter.
+The `-a` operands will list directory entries whose names begin with a dot (.) and are hidden.
+You should see six files including the `ironman.txt` file.
 
-To create files in this folder you can use the `touch` command. The `touch` command technically is to change the timestamp of existing files but we will use it for creating files.  
+Another operand that is often used with the `ls` command is the `-l` operand.
+The `-l` operand lists the file in long format. If the output is to a terminal, a total sum for all the file sizes is output on a line before the long listing.  
 
-Type `touch fortnite.txt clashOfClans.txt halo.txt minecraft.txt borderlands.txt`{{execute}} and press enter.  
-
-If the `touch` command runs successfully, it would create the files named in the command. To find out if it did, you can use the `ls`{{execute}} command in the `myGames` directory and that will show you the files you just created.  
-
-__cd and ../(DotDotSlash))__  
-In order to go to the previous folder, you can use the shortform `../` (DotDotSlash) along with the `cd` command.  
-Since you are in the `myGames` directory now, you can go to the previous directory using the `cd ../`{{execute}} command.    
+Type `ls -la`{{execute}} and press enter.
+If the -l option is given, the following information is displayed for each file:
+- file mode,
+- number of links,
+- owner name,
+- group name,
+- number of bytes in the file,
+- abbreviated month,
+- day-of-month file was last modified,
+- hour file last modified,
+- minute file last modified,
+- and the pathname.  
+In addition, for each directory whose contents are displayed, the total number of 512-byte blocks used by the files in the directory is displayed on a line by itself, immediately before the information for the files in the directory.
