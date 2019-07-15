@@ -12,20 +12,14 @@
       {
         "pathway_id": "intro-to-linux",
         "course_id": "linux-commands",
-        "title": "Basic and Advanced Linux Commands",
-        "description": "Basic and Advanced Linux Commands"
+        "title": "Linux Commands",
+        "description": "Common Linux Commands"
       },
       {
         "pathway_id": "intro-to-linux",
-        "course_id": "linux-commands-directory",
-        "title": "Directory Commands",
-        "description": "Linux Commands for working with Directories or Folders"
-      },
-      {
-        "pathway_id": "intro-to-linux",
-        "course_id": "linux-commands-file",
-        "title": "File Commands",
-        "description": "Linux Commands for working with Files"
+        "course_id": "catapult-linux-commands",
+        "title": "Linux Commands",
+        "description": "Common Linux Commands "
       },
       {
         "pathway_id": "intro-to-linux",
