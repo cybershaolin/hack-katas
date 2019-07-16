@@ -1,30 +1,22 @@
-`rmdir` stands for Remove directory.  
+`diif` or `diff3` stands for Difference.  
 
-Sometimes you may want to or have to delete a directory or folder. Say you created a temporary directory called `tmp` or a top secret folder called `.secrets` that will hold some secret files for a short amount of time. Once you no longer need those files or the directory, you can delete (or remove) it. This is where the `rmdir` command can help.  
+The `diff` command compares two files line by line. The `diff3` command compares three files line by line.   
 
-Now type `cd myGames`{{execute}} to enter into the `myGames` directory.
+Type `ls`{{execute}} and press enter.  
 
-Once you are in the directory, if you type `ls` and press enter, you will find that the directory is empty. There are no files to list.
+You see that there are the a few text (.txt) files and the folders that you created.   
 
-Let us create some files. One of the easiest ways to create some files is to use the `touch` command.
+We need to move the files into the respective directories, meaning the `superheroes_dc` file need to be moved into the `dc` folder and the `superheroes_marvel` file need to be moved into the `marvel` folder.  
 
-Type `touch angrybirds.txt candycrush.txt fortnite.txt halo.txt borderlands.txt`{{execute}} and press enter.
+But wait, there are three `superheroes_dc` text files. So which of these files is the correct file that we need to move into the `dc` directory.
 
-Type `ls -l`{{execute}} to make sure that those files were created.
+One way we can find out about each of these files is look into the files using the `cat` command, but that would take time. So we can use the `diff` or `diff3` command.  
 
-Since you are in the `myGames` directory, type `cd ../`{{execute}} to go to its parent directory (e.g., `/`) so that you can delete the `myGames` directory that you created.  
+Type `diff3 superheroes_dc1.txt superheroes_dc2.txt superheroes_dc3.txt`{{execute}} and press enter.  
 
-Now type `rmdir myGames`{{execute}} and press enter.
+You will see the contents of the three files that are different from each other line by line.  
+The first file has the word 'Flash' misspelled as 'F|ash' (note the second letter is a pipe character and not a lowercase 'L').    
+The third files has the word 'Batmans' and not 'Batman'.    
+The second file is the only file that has the names of the DC  superheroes, correctly spelled.  
 
-Since you have the files that you created inside the directory, this command will fail and you will see something like  
-`rmdir: failed to remove 'myGames/': Directory not empty`
-
-To delete directory that have content inside them, you can use the `rm` command along with the operands called `-rf` which will do a recursive flush.
-
-Try `rm -rf myGames`{{execute}} and press enter.  
-
-__The DeathStars of the rm Commands__
-Never ever, never ever, never ever run the following command   
-`rm -rf *.*`  
-unless you absolutely know that you are in the directory from which you want to delete ALL folders and files.   
-The `*.*` here is a wildcard syntax to mean any files of any type.
+So we will move the `superheroes_dc2.txt` into the `dc` folder and the `superheroes_marvel.txt` into the `marvel` folder, but first let us remove the two incorrect files.  
