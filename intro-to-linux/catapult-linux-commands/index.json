@@ -43,8 +43,12 @@
         "text": "linux-cmds-9-cat.md"
       },
       {
+        "title": "cat (Concatenate)",
+        "text": "linux-cmds-10-locate.md"
+      },
+      {
         "title": "grep (Global Regular Expression Print)",
-        "text": "linux-cmds-10-grep.md"
+        "text": "linux-cmds-11-grep.md"
       }
     ],
     "intro": {
