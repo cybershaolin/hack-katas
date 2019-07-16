@@ -39,8 +39,12 @@
         "text": "linux-cmds-8-tar.md"
       },
       {
+        "title": "cat (Concatenate)",
+        "text": "linux-cmds-9-cat.md"
+      },
+      {
         "title": "grep (Global Regular Expression Print)",
-        "text": "linux-cmds-9-grep.md"
+        "text": "linux-cmds-10-grep.md"
       }
     ],
     "intro": {
