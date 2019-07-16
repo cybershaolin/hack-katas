@@ -1,27 +1,11 @@
-`rmdir` stands for Remove directory.  
+`rm` stands Remove.  
 
-Sometimes you may want to or have to delete a directory or folder. Say you created a temporary directory called `tmp` or a top secret folder called `.secrets` that will hold some secret files for a short amount of time. Once you no longer need those files or the directory, you can delete (or remove) it. This is where the `rmdir` command can help.  
+To remove the `superheroes_dc1.txt` file and the `superheroes_dc3.txt` file, type `rm superheroes_dc1.txt && rm superheroes_dc3.txt`{{execute}} and press enter.
 
-Now type `cd myGames`{{execute}} to enter into the `myGames` directory.
-
-Once you are in the directory, if you type `ls` and press enter, you will find that the directory is empty. There are no files to list.
-
-Let us create some files. One of the easiest ways to create some files is to use the `touch` command.
-
-Type `touch angrybirds.txt candycrush.txt fortnite.txt halo.txt borderlands.txt`{{execute}} and press enter.
-
-Type `ls -l`{{execute}} to make sure that those files were created.
-
-Since you are in the `myGames` directory, type `cd ../`{{execute}} to go to its parent directory (e.g., `/`) so that you can delete the `myGames` directory that you created.  
-
-Now type `rmdir myGames`{{execute}} and press enter.
-
-Since you have the files that you created inside the directory, this command will fail and you will see something like  
+NOTE: To remove a directory, you will use the `rmdir` command. If there are files in the directory that you are trying to delete, then your `rmdir` command will fail and you will see something like  
 `rmdir: failed to remove 'myGames/': Directory not empty`
 
-To delete directory that have content inside them, you can use the `rm` command along with the operands called `-rf` which will do a recursive flush.
-
-Try `rm -rf myGames`{{execute}} and press enter.  
+To delete a directory that has content inside it, you can use the `rm` command along with the operands called `-rf` which will do a forcefully (-f) remove (rm) the listed directories and their contents recursively.
 
 __The DeathStars of the rm Commands__
 Never ever, never ever, never ever run the following command   
