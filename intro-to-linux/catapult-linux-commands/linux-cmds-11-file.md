@@ -2,7 +2,7 @@
 
 The `file` command helps to determine the type of Files.
 
-You have to run `cd ../`{{execute}} to go to the `cybershaolin` folder since you are inside the `villains` folder.  
+Because we know that the villains file is in the `cybershaolin` directory. You have to run `cd ../`{{execute}} to go back to the `cybershaolin` folder since you are inside the `villains` folder.  
 
 Now we learned earlier that in order to read the contents of a file, we can use the `cat` command.  
 
