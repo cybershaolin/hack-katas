@@ -68,9 +68,6 @@
       "credits": "&copy; CyberShaolin. All rights reserved.",
       "code": "setupEnv.sh"
     },
-    "finish": {
-      "text": "finish.md"
-    }
   },
   "environment": {
     "icon": "fa-ubuntu",
