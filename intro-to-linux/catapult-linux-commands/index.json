@@ -7,6 +7,10 @@
   "details": {
     "steps": [
       {
+        "title": "Start",
+        "text": "linux-cmds-start.md"
+      },
+      {
         "title": "pwd (Print Working Directory)",
         "text": "linux-cmds-1-pwd.md"
       },
@@ -60,7 +64,7 @@
       },
       {
         "title": "The End",
-        "text": "linux-cmds-14-the_end.md"
+        "text": "linux-cmds-end.md"
       }
     ],
     "intro": {
@@ -68,6 +72,9 @@
       "credits": "&copy; CyberShaolin. All rights reserved.",
       "code": "setupEnv.sh"
     },
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "environment": {
     "icon": "fa-ubuntu",
