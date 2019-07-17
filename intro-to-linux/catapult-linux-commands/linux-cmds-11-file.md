@@ -27,4 +27,8 @@ To rename the file we will interestingly use the `mv` command. The `mv` command 
 
 Type `mv .villains.txt villains.zip`{{execute}} and press enter to rename the file from .villains.txt to .villains.zip.  
 
-Technically what the `mv` command did in this case was it renamed the `villains.txt` file to `village.zip` file.
+Technically what the `mv` command did in this case was it renamed the `villains.txt` file to `village.zip` file.  
+
+While we are renaming the `villains.txt` file we might as well move it to the `villains` folder.  
+
+Type `mv villains.txt villains/` {{execute}} and press enter.
