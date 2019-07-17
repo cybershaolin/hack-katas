@@ -1,7 +1,4 @@
-`grep` stands for Global Regular Expression Print  
+In this course, you have learned to youse some common linux commands.  
 
-We can use the `grep` command to search specifically for a word or phrase in a text file. If you want to search for one word in a extremely huge document you can use the `grep` command.  
-
-Since we know that this list contains villain names we can search for a villain using the `grep` command.  
-
-Type `grep 'Joker' villains.txt`{{execute}} to see if the Joker is a part of the villains list.
+The end result of this training kwoon should have all the superhero and villain text files organized in their respective folders as shown below  
+`.  ..  dc  marvel  villains  villains.tar`.
