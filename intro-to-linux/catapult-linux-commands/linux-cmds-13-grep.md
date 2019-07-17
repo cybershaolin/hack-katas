@@ -4,4 +4,4 @@ We can use the `grep` command to search specifically for a word or phrase in a t
 
 Since we know that this list contains villain names we can search for a villain using the `grep` command.  
 
-Type `grep 'Joker' villains.txt` {{execute}} to see if the Joker is a part of the villains list.
+Type `grep 'Joker' villains.txt`{{execute}} to see if the Joker is a part of the villains list.
