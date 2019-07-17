@@ -2,8 +2,7 @@
 
 The `file` command helps to determine the type of Files.
 
-Type `pwd` to see if you are in the `/cybershaolin` folder.
-If you are not in that folder then you have to change directory into that folder using the `cd` command. You may have to run `cd cybershaolin`{{execute}} if you are in the `/` folder or you may have run `cd ../`{{execute}} if you are inside the `villains` folder.  
+You have to run `cd ../`{{execute}} to go to the `cybershaolin` folder since you are inside the `villains` folder.  
 
 Now we learned earlier that in order to read the contents of a file, we can use the `cat` command.  
 
@@ -13,19 +12,19 @@ You will notice that some text is displayed on the screen but it is not humanly 
 
 Aha, the villains have not only hidden the file, but also tried to hide (obfuscate) the contents of the file by changing the type of the file.  
 
-A `.txt` file should be openable with the `cat` command, but since this did not work as expected for us, let us determine the type of the file using the `file` command.
+A `.txt` file should be able to be opened by the `cat` command, but since this did not work as expected for us, let us determine the type of the file using the `file` command.
 
 Type `file .villains.txt`{{execute}} and press enter.  
 
-You will notice that the file type is a  zip (compressed) file, more specifically a `gzip` file.
+You will notice that the file type is a `zip` (compressed) file, with a `.txt` file extension.
 
-Next we will need to `unzip` this file to see what the file contains, but before we can do that, we need to rename the file.
+Next we will need to `unzip` this file to see what the file contains, but before we can do that, we need to rename the file from the `.txt` extension to the `.zip` extension.
 
 __Rename using Move (mv)__
 To rename the file we will interestingly use the `mv` command. The `mv` command that you learned earlier can be used for two reasons.
 - Move source(s) to directory and
 - Rename the Source to Destination
 
-Type `mv .villains.txt .villains.zip`{{execute}} and press enter to rename the file from .villains.txt to .villains.zip.  
+Type `mv .villains.txt villains.zip`{{execute}} and press enter to rename the file from .villains.txt to .villains.zip.  
 
 Technically what the `mv` command did in this case was it renamed the `villains.txt` file to `village.zip` file.
