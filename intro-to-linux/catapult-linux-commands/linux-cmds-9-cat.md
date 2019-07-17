@@ -13,8 +13,6 @@ You will see the following text print on the screen.
 `The villians list that you are looking for is not here.
 It must be hiding somewhere.
 Pay careful attention as you search... for even a dot can mean a lot.
-Can you try to 'locate' the list of villians?
-
-SUPER HERO PRO TIP: If you feel stressed, it is time to decompress!!!`
+Can you try to 'locate' the villains file?`
 
 Note: The `cat` command is used extensively in managing files in Linux.
