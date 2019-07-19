@@ -1,4 +1,4 @@
-`mkdir` stands for Make Directory.  
+`mv` stands for Move.  
 It is used to create a folder or directory so that you can be organized.  
 
 You can think of directories like a bookshelf. In the top shelf you may have your school books, the middle shelf may have some fiction books and the bottom shelf may contain some activity books. So also in a computer system, you can organize your files in directories.   
@@ -13,4 +13,4 @@ To see if your directory was created successfully, you can use the `ls` command 
 
 Type `ls`{{execute}} and press enter.
 
-You should see aa directory/folder called `myGames`
+You should see a directory/folder called `myGames`

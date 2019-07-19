@@ -20,4 +20,4 @@ To read the contents of a file and print it to the terminal, you can use the `ca
 Now type `cat edu_quotes.txt` (this time without the `>` sign between the word cat and edu_quotes.txt)
 You should see the quote that you typed in displayed on the screen.
 
-Note: The `cat` command is used extensively in managing files in Linux. 
+Note: The `cat` command is used extensively in reading and managing files in Linux.

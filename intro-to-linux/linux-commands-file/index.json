@@ -12,7 +12,7 @@
       },
       {
         "title": "file (Determine file type)",
-        "text": "linux-cmds-2-file.md"
+        "text": "linux-cmds-2-mv.md"
       },
       {
         "title": "touch (Change file timestamp)",
@@ -20,7 +20,7 @@
       },
       {
         "title": "mv (Move or Rename a file)",
-        "text": "linux-cmds-4-mv.md"
+        "text": "linux-cmds-4-file.md"
       },
       {
         "title": "rm (Remove or delete file(s))",
