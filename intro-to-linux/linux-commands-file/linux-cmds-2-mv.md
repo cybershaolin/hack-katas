@@ -1,16 +1,12 @@
 `mv` stands for Move.  
-It is used to create a folder or directory so that you can be organized.  
+It can be used to move or rename files.
 
-You can think of directories like a bookshelf. In the top shelf you may have your school books, the middle shelf may have some fiction books and the bottom shelf may contain some activity books. So also in a computer system, you can organize your files in directories.   
+If there is a file that you need to move into another directory you can use the `mv` command to do so. Let us organize the `famous_scientists.txt` into the `scientists` folder.  
 
-Let us first create your directory. This directory will store your favorite game files in it.  
+Type `mv famous_scientists scientists/`{{execute}} and press enter.  
 
-Type `mkdir myGames`{{execute}} and press enter.  
+Type `ls`{{execute}} and see if the `famous_scientists.txt` is there. It has been moved to the `scientists` folder.  
 
-What happened? It may seem like nothing happened if your command ran successfully.  
+Type in `cd scientists/`{{execute}}  
 
-To see if your directory was created successfully, you can use the `ls` command which will list all the contents of the current directory where you are.
-
-Type `ls`{{execute}} and press enter.
-
-You should see a directory/folder called `myGames`
+Now see if the `famous_scientists.txt` is there. `ls`{{execute}}
