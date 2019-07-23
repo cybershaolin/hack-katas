@@ -4,11 +4,11 @@ Solution - Linux Cmds Hackercise
 - `locate Tiger`{{execute}}
 - `cd home/Tiger`{{execute}}
 - `cat message_from_tiger`{{execute}}
-- `locate Training_Hall`{{execute}}
-- `cd ../../Training_Hall`{{execute}}
+- `locate training_hall`{{execute}}
+- `cd ../../training_hall`{{execute}}
 - `grep ‘scroll’ training_equipment`{{execute}}
 - `locate Monkey`{{execute}}
-- `cd ../home/Monkey/`{{execute}}
+- `cd home/Monkey/`{{execute}}
 - `cat message_from_monkey`{{execute}}
 - `cd ../Mantis/`{{execute}}
 - `ls`{{execute}}
