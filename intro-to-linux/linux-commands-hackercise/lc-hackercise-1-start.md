@@ -1,5 +1,3 @@
-Hackercise - Linux Commands   
-
 What is a hackercise?   
 Hackercise comes from two words - Hacking and Exercise. You can think of a hackercise as something like a capture-the-flag game.    
 
