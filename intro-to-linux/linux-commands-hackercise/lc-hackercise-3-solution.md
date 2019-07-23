@@ -16,7 +16,7 @@ Solution - Linux Commands Hackercise
 
 `locate Monkey`{{execute}}
 
-`cd home/Monkey/`{{execute}}
+`cd ../home/Monkey/`{{execute}}
 
 `cat message_from_monkey`{{execute}}
 
