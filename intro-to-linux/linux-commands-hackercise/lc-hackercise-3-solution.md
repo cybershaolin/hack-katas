@@ -1,12 +1,12 @@
 Solution - Linux Commands Hackercise
 
-`cat starting_scroll`{{execute}}
+`cat starting_scroll.txt`{{execute}}
 
 `locate Tiger`{{execute}}
 
 `cd home/Tiger`{{execute}}
 
-`cat message_from_tiger`{{execute}}
+`cat message_from_tiger.txt`{{execute}}
 
 `locate training_hall`{{execute}}
 
@@ -18,13 +18,13 @@ Solution - Linux Commands Hackercise
 
 `cd ../home/Monkey/`{{execute}}
 
-`cat message_from_monkey`{{execute}}
+`cat message_from_monkey.txt`{{execute}}
 
 `cd ../Mantis/`{{execute}}
 
 `ls`{{execute}}
 
-`cat message_from_mantis`{{execute}}
+`cat message_from_mantis.txt`{{execute}}
 
 `tar -xvzf jars.tar`{{execute}}
 
@@ -32,15 +32,17 @@ Solution - Linux Commands Hackercise
 
 `tar -xvzf scrolls.tar`{{execute}}
 
-`cd scrolls.tar`{{execute}}
+`cd scrolls`{{execute}}
 
-`cat note_from_viper`{{execute}}
+`ls`{{execute}}
+
+`cat note_from_viper.txt`{{execute}}
 
 `cd ../../../Viper`{{execute}}
 
 `ls`{{execute}}
 
-`cat message_from_viper`{{execute}}
+`cat message_from_viper.txt`{{execute}}
 
 `cd scrolls`{{execute}}
 
@@ -50,7 +52,7 @@ Solution - Linux Commands Hackercise
 
 `cd ../../Crane`{{execute}}
 
-`cat message_from_crane`{{execute}}
+`cat message_from_crane.txt`{{execute}}
 
 `cd scrolls`{{execute}}
 
@@ -58,6 +60,6 @@ Solution - Linux Commands Hackercise
 
 `locate Shifu`{{execute}}
 
-`cd ../../root/.Shifu/`{{execute}}
+`cd /root/.Shifu/`{{execute}}
 
 `cat the_dragon_scroll.txt`{{execute}}
