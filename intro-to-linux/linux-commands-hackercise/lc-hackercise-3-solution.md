@@ -6,13 +6,13 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `ls`{{execute}}
 
-`cat starting_scroll.txt`{{execute}}
+`cat starting_scroll`{{execute}}
 
 `locate Tiger`{{execute}}
 
 `cd home/Tiger`{{execute}}
 
-`cat message_from_tiger.txt`{{execute}}
+`cat message_from_tiger`{{execute}}
 
 `locate training_hall`{{execute}}
 
@@ -24,13 +24,13 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `cd ../home/Monkey/`{{execute}}
 
-`cat message_from_monkey.txt`{{execute}}
+`cat message_from_monkey`{{execute}}
 
 `cd ../Mantis/`{{execute}}
 
 `ls`{{execute}}
 
-`cat message_from_mantis.txt`{{execute}}
+`cat message_from_mantis`{{execute}}
 
 `tar -xvzf jars.tar`{{execute}}
 
@@ -42,23 +42,23 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `ls`{{execute}}
 
-`cat note_from_viper.txt`{{execute}}
+`cat note_from_viper`{{execute}}
 
 `cd ../../../Viper`{{execute}}
 
 `ls`{{execute}}
 
-`cat message_from_viper.txt`{{execute}}
+`cat message_from_viper`{{execute}}
 
 `cd scrolls`{{execute}}
 
-`ls -la`{{execute}} [see 3rd timestamp (scroll_7.txt)]
+`ls -la`{{execute}}
 
-`cat scroll_7.txt`{{execute}}
+`cat scroll_7`{{execute}}
 
 `cd ../../Crane`{{execute}}
 
-`cat message_from_crane.txt`{{execute}}
+`cat message_from_crane`{{execute}}
 
 `cd scrolls`{{execute}}
 
@@ -68,4 +68,4 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `cd /root/.Shifu/`{{execute}}
 
-`cat the_dragon_scroll.txt`{{execute}}
+`cat the_dragon_scroll`{{execute}}
