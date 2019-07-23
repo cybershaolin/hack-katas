@@ -40,6 +40,8 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `cd jars/`{{execute}}
 
+`ls`{{execute}}
+
 `tar -xvzf scrolls.tar`{{execute}}
 
 `cd scrolls`{{execute}}
@@ -58,13 +60,13 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `ls -la`{{execute}}
 
-`cat scroll_7`{{execute}}
+`cat scroll_7.txt`{{execute}}
 
 `cd ../../Crane`{{execute}}
 
 `ls`{{execute}}
 
-`cat message_from_crane`{{execute}}
+`cat message_from_crane.txt`{{execute}}
 
 `cd scrolls`{{execute}}
 
@@ -76,4 +78,4 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `ls`{{execute}}
 
-`cat the_dragon_scroll`{{execute}}
+`cat the_dragon_scroll.txt`{{execute}}
