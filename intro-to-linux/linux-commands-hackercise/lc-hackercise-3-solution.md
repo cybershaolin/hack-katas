@@ -12,7 +12,7 @@ Solution - Linux Commands Hackercise
 
 `cd ../../training_hall`{{execute}}
 
-`grep ‘scroll’ training_equipment`{{execute}}
+`grep 'scroll' training_equipment`{{execute}}
 
 `locate Monkey`{{execute}}
 
