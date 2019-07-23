@@ -1,1 +1,33 @@
 Solution - Linux Cmds Hackercise
+
+- `cat starting_scroll`{{execute}}
+- `locate Tiger`{{execute}}
+- `cd home/Tiger`{{execute}}
+- `cat message_from_tiger`{{execute}}
+- `locate Training_Hall`{{execute}}
+- `cd ../../Training_Hall`{{execute}}
+- `grep ‘scroll’ training_equipment`{{execute}}
+- `locate Monkey`{{execute}}
+- `cd ../home/Monkey/`{{execute}}
+- `cat message_from_monkey`{{execute}}
+- `cd ../Mantis/`{{execute}}
+- `ls`{{execute}}
+- `cat message_from_mantis`{{execute}}
+- `tar -xvzf jars.tar`{{execute}}
+- `cd jars/`{{execute}}
+- `tar -xvzf scrolls.tar`{{execute}}
+- `cd scrolls.tar`{{execute}}
+- `cat note_from_viper`{{execute}}
+- `cd ../../../Viper`{{execute}}
+- `ls`{{execute}}
+- `cat message_from_viper`{{execute}}
+- `cd scrolls`{{execute}}
+- `ls -la`{{execute}} [see 3rd timestamp (scroll_7.txt)]
+- `cat scroll_7.txt`{{execute}}
+- `cd ../../Crane`{{execute}}
+- `cat message_from_crane`{{execute}}
+- `cd scrolls`{{execute}}
+- `diff3 scroll_1.txt scroll_2.txt scroll_3.txt`{{execute}}
+- `locate Shifu`{{execute}}
+- `cd ../../root/.Shifu/`{{execute}}
+- `cat the_dragon_scroll.txt`{{execute}}
