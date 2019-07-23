@@ -3,20 +3,21 @@
   "title": "Linux Commands - Hackercise",
   "description": "Capture the Flag Hands-On exercise using Linux Commands (for Hackers).",
   "difficulty": "Advanced",
-  "time": "30 minutes",
+  "time": "30-45 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Start Hackercise",
+        "text": "lc-hackercise-1-start.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Scenario - Dragon Warrior Linux Command Hackercise",
+        "text": "lc-hackercise-2-scenario.md",
+        "answer": "lc-hackercise-3-solution.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "End Hackercise",
+        "text": "lc-hackercise-4-end.md"
       }
     ],
     "intro": {

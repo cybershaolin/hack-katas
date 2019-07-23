@@ -1,1 +1,1 @@
-In this module, you will learn to use the linux commands you learned to capture the flags.
+In this hackercise, you will learn to use the Linux Commands you learned so far. 

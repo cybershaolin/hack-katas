@@ -1,4 +1,4 @@
-echo "Creating Docker Environment"
+echo "Creating Cybershaolin Learning Environment"
 docker run -it cybershaolin/linux-cmd:hackercise /bin/bash
 
 #echo "Finding out Container ID"

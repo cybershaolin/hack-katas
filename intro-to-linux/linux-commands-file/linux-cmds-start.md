@@ -17,4 +17,4 @@ __Multiple File Commands__
 - diff: Display the differences between two files
 - diff3: Show differences among three files  
 
-You can start by going to the `home` folder by typing `cd home`{{execute}} and press enter. 
+You can start by going to the `home` folder by typing `cd home`{{execute}} and press enter.
