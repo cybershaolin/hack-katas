@@ -12,6 +12,8 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `cd home/Tiger`{{execute}}
 
+`ls`{{execute}}
+
 `cat message_from_tiger`{{execute}}
 
 `locate training_hall`{{execute}}
@@ -23,6 +25,8 @@ The solution to the hackercise is given below, but we highly recommend that you 
 `locate Monkey`{{execute}}
 
 `cd ../home/Monkey/`{{execute}}
+
+`ls`{{execute}}
 
 `cat message_from_monkey`{{execute}}
 
@@ -58,6 +62,8 @@ The solution to the hackercise is given below, but we highly recommend that you 
 
 `cd ../../Crane`{{execute}}
 
+`ls`{{execute}}
+
 `cat message_from_crane`{{execute}}
 
 `cd scrolls`{{execute}}
@@ -67,5 +73,7 @@ The solution to the hackercise is given below, but we highly recommend that you 
 `locate Shifu`{{execute}}
 
 `cd /root/.Shifu/`{{execute}}
+
+`ls`{{execute}}
 
 `cat the_dragon_scroll`{{execute}}
