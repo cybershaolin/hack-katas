@@ -7,16 +7,16 @@
   "details": {
     "steps": [
       {
-        "title": "Start",
+        "title": "Start Hackercise",
         "text": "lc-hackercise-1-start.md"
       },
       {
-        "title": "Scenario",
+        "title": "Scenario - Dragon Warrior Linux Command Hackercise",
         "text": "lc-hackercise-2-scenario.md",
         "answer": "lc-hackercise-3-solution.md"
       },
       {
-        "title": "End",
+        "title": "End Hackercise",
         "text": "lc-hackercise-4-end.md"
       }
     ],

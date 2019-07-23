@@ -1,4 +1,4 @@
-Scenario - Welcome to the Kung Fu Panda Linux Command Hackercise!
+Welcome to the Dragon Warrior Linux Command Hackercise!
 
 You are the Dragon Warrior and the only way to unlock your full potential is by finding
 the legendary Dragon Scroll.  
