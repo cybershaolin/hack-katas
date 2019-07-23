@@ -1,5 +1,7 @@
 Solution - Linux Commands Hackercise
 
+The solution to the hackercise is given below, but we highly recommend that you try to 'hack' and solve it with the knowledge of Linux Commands that you have gained. If you are stuck, you can obviously look at the command(s) to run, but first try on your own.
+
 `cat starting_scroll.txt`{{execute}}
 
 `locate Tiger`{{execute}}
