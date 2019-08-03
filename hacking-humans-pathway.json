@@ -1,0 +1,13 @@
+{
+    "title": "Hacking Humnas",
+    "description": "Introduces you to basic Social Engineering Techniques.",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "pathway_id": "hacking-humans",
+        "course_id": "setoolkit-practice",
+        "title": "Social Engineering Phishing Practice",
+        "description": "Use setoolkit to phish unsuspecting victims."
+      },
+    ]
+  }
