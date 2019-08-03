@@ -1,5 +1,5 @@
 Here you will learn about a type of Social Engineering Technique.
 
-In this scenario you will learn a technique called phishing. You will learn how trick a unsuspecting victim into revealing private and personal information about themselves, by creating a fake cloned website. 
+In this training kwoon you will learn more about a technique called phishing. You will learn how to trick a unsuspecting victim into revealing private and personal information about themselves, by .  
 
-In this training session, we will introduce this commands using a scenario of superheroes.
+The purpose of this course is to show you how to social engineer someone so you can look for key points and be safe and secure against other social engineering attacks against you.
