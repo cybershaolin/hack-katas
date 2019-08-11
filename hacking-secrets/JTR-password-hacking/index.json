@@ -1,0 +1,42 @@
+{
+  "pathwayTitle": "Social Engineering Phishing Practice",
+  "title": "Linux Commands",
+  "description": "Common Linux Commands.",
+  "difficulty": "Beginner",
+  "time": "30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Start",
+        "text": "hacking-humans-start.md"
+      },
+      {
+        "title": "Phishing Exercise (Social Engineer Toolkit)",
+        "text": "hacking-humans-1-setoolkit.md"
+      },
+      {
+        "title": "The End",
+        "text": "hacking-humans-end.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin. All rights reserved.",
+      "code": "setupEnv.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "icon": "fa-ubuntu",
+    "showdashboard": true,
+    "dashboards": [{"name": "Docker Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
