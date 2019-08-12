@@ -8,15 +8,23 @@
     "steps": [
       {
         "title": "Start",
-        "text": "hacking-humans-start.md"
+        "text": "hacking-secrets-start.md"
       },
       {
-        "title": "Phishing Exercise (Social Engineer Toolkit)",
-        "text": "hacking-humans-1-setoolkit.md"
+        "title": "Password Cracking (etc_passwd etc_shadow)",
+        "text": "hacking-secrets-1-etc-passwd-shadow.md"
       },
       {
-        "title": "The End",
-        "text": "hacking-humans-end.md"
+        "title": "Password Cracking (ssh)",
+        "text": "hacking-secrets-2-ssh.md"
+      },
+      {
+        "title": "Stegenography (steghide)",
+        "text": "hacking-secrets-3-steghide.md"
+      },
+      {
+        "title": "End",
+        "text": "hacking-secrets-end.md"
       }
     ],
     "intro": {

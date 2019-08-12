@@ -26,18 +26,6 @@
         "course_id": "linux-commands-hackercise",
         "title": "Hackercise - Treasure Hunt using Command Line",
         "description": "Hands On exercise to practice Linux Commands"
-      },
-      {
-        "pathway_id": "intro-to-linux",
-        "course_id": "linux-commands-directory",
-        "title": "Linux Directory Commands",
-        "description": "Learning about Linux Directory Commands"
-      },
-      {
-        "pathway_id": "intro-to-linux",
-        "course_id": "linux-commands-file",
-        "title": "Linux File Commands",
-        "description": "Learning about Linux File Commands"
       }
     ]
   }
