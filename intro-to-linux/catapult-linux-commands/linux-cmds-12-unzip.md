@@ -2,7 +2,10 @@
 
 The `unzip` command is used to extract all contents of a `zipped` file.  
 
-Since we have a zip file renamed `villains.zip`, type `unzip villains.zip`{{execute}} and press enter.     
+Since we have a zip file renamed `villains.zip` in the `villains` directory, we will navigate into the `villiains` directory and unzip the `villains.zip` file.  
+
+Type `cd villains`{{execute}} and press enter.  
+Type `unzip villains.zip`{{execute}} and press enter.     
 
 You will see this text appear on the screen.    
 
