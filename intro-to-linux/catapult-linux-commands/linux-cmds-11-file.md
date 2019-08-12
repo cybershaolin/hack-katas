@@ -31,4 +31,4 @@ Technically what the `mv` command did in this case was it renamed the `villains.
 
 While we are renaming the `villains.txt` file we might as well move it to the `villains` folder.  
 
-Type `mv villains.txt villains/`{{execute}} and press enter.
+Type `mv villains.zip villains/`{{execute}} and press enter.
