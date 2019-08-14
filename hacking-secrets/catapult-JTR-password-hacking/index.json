@@ -1,7 +1,7 @@
 {
   "pathwayTitle": "Social Engineering Phishing Practice",
-  "title": "Linux Commands",
-  "description": "Common Linux Commands.",
+  "title": "Hacking Secrets",
+  "description": "Common hacking secrets techniques.",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
@@ -9,6 +9,7 @@
       {
         "title": "Start",
         "text": "hacking-secrets-start.md"
+        "code": "setupEnv.sh"
       },
       {
         "title": "Password Cracking (etc_passwd etc_shadow)",

@@ -1,5 +1,5 @@
-In this course, you have learned phishing a Social Engineering Technique.
+In this course, you have learned techniques that hackers use to hack secrets such as password cracking and phishing.
 
-In the endresult of this training kwoon you should have the credentials harvested in the `/var/www/html` folder.
+In the end result of this training kwoon you should have the credentials harvested in the `/var/www/html` folder.
 
 Hope you had fun learning! :-)
