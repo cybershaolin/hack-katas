@@ -9,7 +9,6 @@
       {
         "title": "Start",
         "text": "hacking-secrets-start.md"
-        "code": "setupEnv.sh"
       },
       {
         "title": "Password Cracking (etc_passwd etc_shadow)",
