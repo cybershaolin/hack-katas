@@ -1,5 +1,5 @@
 echo "Creating Cybershaolin Learning Environment"
-docker run -it cybershaolin/hacking-humans:social /bin/bash
+docker run -it cybershaolin/setoolkit /bin/bash
 
 #echo "Finding out Container ID"
 #docker ps --format "{{.ID}}"
