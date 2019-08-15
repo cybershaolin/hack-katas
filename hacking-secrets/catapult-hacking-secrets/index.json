@@ -26,15 +26,7 @@
         "title": "End",
         "text": "hacking-secrets-end.md"
       }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "credits": "&copy; CyberShaolin. All rights reserved.",
-      "code": "setupEnv.sh"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
+    ]
   },
   "environment": {
     "icon": "fa-ubuntu",
