@@ -11,15 +11,15 @@
         "text": "hacking-secrets-start.md"
       },
       {
-        "title": "Password Cracking (etc_passwd etc_shadow)",
+        "title": "Password Cracking",
         "text": "hacking-secrets-1-etc-passwd-shadow.md"
       },
       {
-        "title": "Password Cracking (ssh)",
+        "title": "Password Cracking (using Wordlists)",
         "text": "hacking-secrets-2-ssh.md"
       },
       {
-        "title": "Stegenography (steghide)",
+        "title": "Steganography",
         "text": "hacking-secrets-3-steghide.md"
       },
       {
