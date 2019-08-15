@@ -8,9 +8,7 @@
     "steps": [
       {
         "title": "Start",
-        "text": "hacking-secrets-start.md",
-        "credits": "&copy; CyberShaolin. All rights reserved.",
-        "code": "setupEnv.sh"
+        "text": "hacking-secrets-start.md"
       },
       {
         "title": "Password Cracking (etc_passwd etc_shadow)",
@@ -28,14 +26,22 @@
         "title": "End",
         "text": "hacking-secrets-end.md"
       }
-    ]
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "&copy; CyberShaolin. All rights reserved.",
+      "code": "setupEnv.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "environment": {
     "icon": "fa-ubuntu",
     "showdashboard": true,
-    "dashboards": [{"name": "localhost:8099", "href": "https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com"},
-    {"name": "Training Website - 8099", "port":8099 },
-    {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
+    "hideintro": true,
+    "hidefinish":true,
+    "dashboards": [{"name": "Training Website:8099", "port":8099 }],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
   },
