@@ -47,7 +47,9 @@
   "environment": {
     "icon": "fa-ubuntu",
     "showdashboard": true,
-    "dashboards": [{"name": "Docker Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    "hideintro": true,
+    "hidefinish":true,
+    "dashboards": [{"name": "Local Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
     {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
