@@ -11,16 +11,9 @@
         "text": "hacking-secrets-start.md"
       },
       {
-        "title": "Password Cracking (etc_passwd etc_shadow)",
-        "text": "hacking-secrets-1-etc-passwd-shadow.md"
-      },
-      {
-        "title": "Password Cracking (ssh)",
-        "text": "hacking-secrets-2-ssh.md"
-      },
-      {
-        "title": "Stegenography (steghide)",
-        "text": "hacking-secrets-3-steghide.md"
+        "title": "",
+        "text": "hacking-secrets-1-scenario.md",
+        "answer": "hacking-secrets-2-solution.md"
       },
       {
         "title": "End",

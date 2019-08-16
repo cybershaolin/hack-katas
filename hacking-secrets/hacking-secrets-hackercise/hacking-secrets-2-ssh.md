@@ -1,7 +1,0 @@
-The way ssh (secure shell) works is it encrypts data (we will be encrypting with the RSA algorithim) using a encryption key. This encryption key has two parts the public key and the the private key. You can think about it this way half of the key is the public key and the other half is the private key to form the whole key you need both so you can unlock the door.  
-
-If not already there cd to the `cd home/reuben`{{execute}} and `ls`{{execute}}  you should see a folder named `ssh_keys` navigate into that folder by typing `cd ssh_keys`{{execute}}, then `ls`{{execute}} again.  
-
-JTR acctually has a program called `ssh2john` that will combine the public and private key making the hash file that we can crack, but we already did that for you so you should a hash file called `reuben_rsa.hash`.  
-
-The last step is to crack the password we are going to use JTR, but this time we are going to input our own wordlist, by default JTR uses another wordlist. It is important to know how to use you own wordlists in case you need to crack a password around a specific subject you can search for wordlists about that subject and crack the password. An example is you know that the user Reuben likes to travel a lot so his password maybe a US city you can find a us cities wordlist and crack the password using that. So type in `john --wordlist=/usr/local/share/john/wordlists/us_cities.txt reuben_rsa.hash`{{execute}}. 
