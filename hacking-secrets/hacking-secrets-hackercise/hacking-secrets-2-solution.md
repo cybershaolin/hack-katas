@@ -30,7 +30,7 @@
 
 (visit localhost:8080 on browser)  
 
-`cat password_hint.txt`  
+`cat password_hint.txt`{{execute}} 
 
 `steghide extract -sf TheBlackPanther.jpg`{{execute}} (using chameleon)  
 
