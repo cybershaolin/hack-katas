@@ -1,10 +1,10 @@
 In the previous lessons you learned about what phishing is. This lesson will use a tool called setoolkit to create a fake cloned website and harvest their credentials.
 
-The first thing we are going to do is start setoolkit you can do this by typing `setoolkit` {{execute}}  
+The first thing we are going to do is start setoolkit you can do this by typing `setoolkit`{{execute}}  
 
 You should see a list of different options we can choose from.  
 
-Since we are going to be tricking the user into giving secretive information of theirs away. We are going to be executing a `Social Engineering Attack` or option number `1` {{execute}}.  
+Since we are going to be tricking the user into giving secretive information of theirs away. We are going to be executing a `Social Engineering Attack` or option number `1`{{execute}}.  
 
 Because we are creating a fake cloned website we will select the `Website Attack Vectors` option type `2`{{execute}}.  
 
