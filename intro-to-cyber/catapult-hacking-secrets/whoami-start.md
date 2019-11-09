@@ -1,5 +1,2 @@
-In this course, you have learned techniques that hackers use to hack secrets such as password cracking and phishing.
-
-In the end result of this training kwoon you should have the credentials harvested in the `/var/www/html` folder.
-
-Hope you had fun learning! :-)
+In this scenario you will be learning about two basic commands, in linux. The way we will be running these commands is through an interface known as terminal it runs commands without a graphical user interface (GUI). GUI's help the user use a computer systems interface. Some examples of GUI's is file explorer, settings etc these all interact with the computer to perform a certain function. Hackers mainly use terminals to hack, so they can send specific commands to the computer and it has more functionality.
+The two commands we will be learning about is the `whoami` command and the `whois` command.

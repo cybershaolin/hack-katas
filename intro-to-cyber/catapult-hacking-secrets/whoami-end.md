@@ -1,5 +1,3 @@
-In this course, you have learned techniques that hackers use to hack secrets such as password cracking and phishing.
+In this course you learned about terminal and how to use two basic commands. For more advanced topics check out cybershaolin's course on linux commands.
 
-In the end result of this training kwoon you should have the credentials harvested in the `/var/www/html` folder.
-
-Hope you had fun learning! :-)
+Hope you had fun learning. :-)
