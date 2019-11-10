@@ -1,7 +1,3 @@
-In this course you will learn about Hacking Secrets (private information) such as cracking passwords or finding hidden data in images (steganography) etc. These are ways of exploiting confidentiality.
-
-The main tool we will be using is a tool known as John the Ripper (JTR). The way JTR works is it scans a wordlist and hashes each word in the list checking against another file with the password or the passwords hash, if the hash values match then you now that that is the password.
-
-We will also be using Steghide which will find hidden data in images when given the correct password.
-
-The purpose of this course is to learn how to exploit confidential (secrets) and private information so you can protect yourself against hackers stealing your information
+The whois command is a reconnaissance tool that looks up domain names and ip addresses to get information such as users registered or querying databases. Hackers use reconnaissance tools to find information about their targets, networks, etc.
+Type in `whois google.com`
+It should give you a lot of information about google such as companies that are hosting their website. One thing that I would like you to look at particularly is the creation date. Scroll up a little bit until you see `Creation Date` it should say there the creation date was `1997-09-15T04:00:00Z`. Now I would like you to open your browser and type in when was google first used it should say the domain was registered on September 15th 1997. Hackers can use information like this to research and gather information to execute a successful hack.
