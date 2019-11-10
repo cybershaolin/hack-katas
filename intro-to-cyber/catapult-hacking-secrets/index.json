@@ -1,30 +1,26 @@
 {
-  "pathwayTitle": "Hacking Secrets",
-  "title": "Hacking Secrets",
-  "description": "Hacking techniques to find secrets.",
+  "pathwayTitle": "Intro to Cyber",
+  "title": "Intro to Cyber",
+  "description": "Two Basic Commands to introduce you to terminal and cybersecurity.",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
         "title": "Start",
-        "text": "hacking-secrets-start.md"
+        "text": "whoami-start.md"
       },
       {
-        "title": "Password Cracking",
-        "text": "hacking-secrets-1-etc-passwd-shadow.md"
+        "title": "Whoami Command",
+        "text": "whoami.md"
       },
       {
-        "title": "Password Cracking (using Wordlists)",
-        "text": "hacking-secrets-2-ssh.md"
-      },
-      {
-        "title": "Steganography",
-        "text": "hacking-secrets-3-steghide.md"
+        "title": "Whois Command",
+        "text": "whois.md"
       },
       {
         "title": "End",
-        "text": "hacking-secrets-end.md"
+        "text": "whoami-end.md"
       }
     ],
     "intro": {
