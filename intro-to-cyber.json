@@ -5,7 +5,7 @@
     "courses": [
       {
         "pathway_id": "intro-to-cyber",
-        "course_id": "catapult-hacking-secrets",
+        "course_id": "terminal-commands",
         "title": "Intro to Cyber",
         "description": "Two Basic Commands to introduce you to terminal and cybersecurity."
       }
