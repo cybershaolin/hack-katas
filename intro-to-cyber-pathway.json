@@ -5,9 +5,15 @@
     "courses": [
       {
         "pathway_id": "intro-to-cyber",
-        "course_id": "terminal-commands",
+        "course_id": "whoami",
         "title": "Intro to Cyber",
         "description": "Two Basic Commands to introduce you to terminal and cybersecurity."
-      }
+      },
+      {
+        "pathway_id": "intro-to-cyber",
+        "course_id": "whois",
+        "title": "Intro to Cyber",
+        "description": "Two Basic Commands to introduce you to terminal and cybersecurity."
+      }  
     ]
   }
