@@ -8,7 +8,7 @@
     "steps": [
       {
         "title": "Start",
-        "text": "Whois-start.md"
+        "text": "whois-start.md"
       },
       {
         "title": "whoami Command",
