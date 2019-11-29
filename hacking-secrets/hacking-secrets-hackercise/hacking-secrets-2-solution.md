@@ -28,9 +28,9 @@
 
 `cat hack.msg`{{execute}}  
 
-(visit localhost:8080 on browser)  
+(visit localhost:8099 on browser)  
 
-`cat password_hint.txt`{{execute}} 
+`cat password_hint.txt`{{execute}}
 
 `steghide extract -sf TheBlackPanther.jpg`{{execute}} (using chameleon)  
 

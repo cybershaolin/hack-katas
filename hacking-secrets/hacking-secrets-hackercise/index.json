@@ -1,6 +1,6 @@
 {
   "pathwayTitle": "Hacking Secrets",
-  "title": "Hacking Secrets",
+  "title": "Hacking Secrets - Hackercise",
   "description": "Common hacking secrets techniques.",
   "difficulty": "Beginner",
   "time": "30 minutes",
@@ -11,7 +11,7 @@
         "text": "hacking-secrets-start.md"
       },
       {
-        "title": "",
+        "title": "Scenario - CIA Agent Bourne Hacking Secrets Mission",
         "text": "hacking-secrets-1-scenario.md",
         "answer": "hacking-secrets-2-solution.md"
       },
@@ -32,7 +32,7 @@
   "environment": {
     "icon": "fa-ubuntu",
     "showdashboard": true,
-    "dashboards": [{"name": "Docker Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+    "dashboards": [{"name": "CIA Website", "href": "https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com"},
     {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mCyberShaolin Terminal.\u001b[m\r\n"
