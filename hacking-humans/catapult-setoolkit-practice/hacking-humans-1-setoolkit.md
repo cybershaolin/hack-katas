@@ -17,7 +17,13 @@ The IP address also known as the internet protocol address is a unique series of
 
 The reason why we need to type in our IP address in setoolkit is because when the user types in their credentials and the username and password have been stolen the faked cloned website needs to send the credentials back to our computer. The only way to do that is by using our unique internet protocol identifier (IP address). Also our IP address will be hosting the cloned website so that is what the user will be connecting to.
 
-The IP address we will be using is `localhost:8099`{{execute}}.
+The IP address we will be using the IP address of the webserver where the setoolkit is running. DON'T use localhost:8099 which we would use if we were testing it locally.  
+In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser.
+
+Copy the URL address that is displayed and paste it into a text editor like Notepad (in Windows) or TextEdit in Mac so you can delete the words "https://" and the last training forward slash ("/") at the end of the URL address you copied.
+NOTE: Your URL may be different, but it should look something like when you paste it `https://2886795365-8099-cykoria01.environments.katacoda.com/`. It should be changed to `2886795365-8099-cykoria01.environments.katacoda.com`
+Now copy this URL and paste it into the setoolkit window where it asks for IP Address
+NOTE: The reason we do the step of using a text editor to strip out the unneeded protocol ("https://") and trailing forward slash ("/") is because it is difficult to edit within the setoolkit window once the URL is pasted.
 
 Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login`{{execute}}. This is the website we will be cloning. Once you have typed it in you will see a message about 3 lines up saying `All files are located under the Apache web root directory: /var/www/html` Let us go to that folder, type Ctrl-C then enter and then type `exit`{{execute}} to get out of the setoolkit tool. Now `cd /var/www/html` and navigate to that directory so once we act like the victim we can see the credentials
 
