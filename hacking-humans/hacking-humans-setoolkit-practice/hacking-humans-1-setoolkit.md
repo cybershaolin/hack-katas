@@ -21,7 +21,7 @@ The IP address we will be using the IP address of the webserver where the setool
 In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser.
 
 Copy the URL address that is displayed and paste it into a text editor like Notepad (in Windows) or TextEdit in Mac so you can delete the words "https://" and the last training forward slash ("/") at the end of the URL address you copied.
-NOTE: Your URL may be different, but it should look something like when you paste it `https://2886795365-8099-cykoria01.environments.katacoda.com/`. It should be changed to `2886795365-8099-cykoria01.environments.katacoda.com`
+NOTE: YOUR URL MAY BE DIFFERENT, but it should look something like when you paste it `https://2886795365-8099-cykoria01.environments.katacoda.com/`. It should be changed to `2886795365-8099-cykoria01.environments.katacoda.com`
 Now copy this URL and paste it into the setoolkit window where it asks for IP Address
 NOTE: The reason we do the step of using a text editor to strip out the unneeded protocol ("https://") and trailing forward slash ("/") is because it is difficult to edit within the setoolkit window once the URL is pasted.
 
@@ -62,7 +62,7 @@ Let's pretend that you sent the victim with an email saying to check out a cool 
 
 Click on the `Hacker Website` tab. It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login. Type in a fake username and password it can be anything. An example would be klms_student (username) and klmsR0x (password).  
 
-Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. The credentials we hacked will be in this file. The harvester may be different for all of us, but you can `cat` your unique harvester file. Once you cat it you should see something like with the credentials that got hacked. 
+Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. The credentials we hacked will be in this file. The harvester may be different for all of us, but you can `cat` your unique harvester file. Once you cat it you should see something like with the credentials that got hacked.
 `(
     [username_or_email] => klms_student
     [password] => klmsR0x
