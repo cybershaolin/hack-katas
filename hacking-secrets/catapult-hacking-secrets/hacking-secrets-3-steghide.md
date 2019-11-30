@@ -17,8 +17,8 @@ Then type `ls`{{execute}} and type enter to list the contents of that directory.
 
 __The hacker bros - More than what meets the eye__  
 You should see a image named `hacker_bros.png`. In order to see the image, there are a few things you can do.
-1. Click on the Tab that says "Training Website:8099". This should open up your default browser and display a web page with the image in it.
-2. Open your browser (e.g., Chrome, Safari or Internet explorer) and navigate to the `http://localhost:8099` address.
+Click on the Tab that says `HackerBros Website`. This should open up your default browser and display a web page with the image in it.
+
 The web page will give you a description about the image and then inform you that `there is more to this than what meets the eye` and that there is a `hidden message` that you must try to uncover.  
 
 This informs you that using Steganography, some information is hidden in the image.
