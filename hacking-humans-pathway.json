@@ -5,7 +5,7 @@
     "courses": [
       {
         "pathway_id": "hacking-humans",
-        "course_id": "catapult-setoolkit-practice",
+        "course_id": "hacking-humans-setoolkit-practice",
         "title": "Social Engineering Practice",
         "description": "Use Social Engineer Toolkit to phish unsuspecting victims."
       }
