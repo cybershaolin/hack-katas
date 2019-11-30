@@ -10,6 +10,6 @@ If you are a user named `duke`, then your home directory would be `/home/duke`
 Type `pwd`{{execute}} and press enter.  
 
 You will find that you are in the `/` directory as shown below.
-
+Note:The hostname (The value after the word `root@` may be different than what is shown below.)
 `root@1d57118366ce:/# pwd
 /`
