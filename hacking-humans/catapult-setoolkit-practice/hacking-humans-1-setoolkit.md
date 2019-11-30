@@ -1,6 +1,6 @@
 In the previous lessons you learned about what phishing is. This lesson will use a tool called setoolkit to create a fake cloned website and harvest their credentials.
 
-Normally, the first thing we will do is to start setoolkit you can do this by typing `setoolkit`{{execute}} within the 'set' folder, but we have already do that for you.
+Normally, the first thing we will do is to start setoolkit you can do this by typing './setoolkit' within the 'set' folder, but we have already do that for you.
 
 You should see a list of different options we can choose from.  
 
