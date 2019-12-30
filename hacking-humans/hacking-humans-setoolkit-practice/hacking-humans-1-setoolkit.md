@@ -56,8 +56,9 @@ Feel free to customize post.php in the /var/www/html directory
 [*] All fields captures will be displayed below.
 [Credential Harvester is now listening below...]`
 
-Let us go to that folder, type Ctrl-C then enter and then type `exit`{{execute}} to get out of the setoolkit tool. Now `cd /var/www/html` to navigate to that directory.
+Let us go to that folder, type Ctrl-C then enter and then type `exit`{{execute}} to get out of the setoolkit tool.
 
+Now `cd /var/www/html`{{execute}} to navigate to that directory.
 Let's pretend that you sent the victim with an email saying to check out a cool new post and you gave them this link. You can go even to the extent of masking the IP so the link looks legitimate like twitter.com (for time purposes we won't though). Normally people would click on it. Now that we have the attackers side set up let us play the victim.
 
 Click on the `Hacker Website` tab. It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login. Type in a fake username and password it can be anything. An example would be klms_student (username) and klmsR0x (password).  
