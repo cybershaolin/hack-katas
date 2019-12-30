@@ -27,8 +27,8 @@ Let us open and read the contents of the 'DEBRIEf.md' file using the __cat__ com
 Type `cat DEBRIEF.md`{{execute}} and press enter.
 You should see a note addressed to you (Agent Bourne) instructing you that your first mission is to discover the password of a suspect known as 'Duke'
 
-`Hello Agent Bourne.
--------------------
+`Hello Agent Bourne
+
 We have a mission for you.
 We have learned that there is a cyber attack being planned.
 
