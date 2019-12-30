@@ -154,8 +154,8 @@ There is also a clue at the end of the message .
 Date: January 19, 1917 at 04:11:00 AM CDT
 To: Duke <duke@gfo.de>
 Cc:
-Sub: FAKE Hack Plan
------------------------
+Subject: Fake Hack Plan
+
 Attention Duke,
 
 The cyber attack is planned against Britain and its allied forces is planned for:
@@ -235,8 +235,8 @@ You will now have the real Hack message decoded and displayed as shown.
 Date: July 4, 2019 at 04:11:00 AM CDT
 To: Duke <duke@gfo.de>
 Cc:
-Sub: The Real Hack Plan
------------------------
+Subject: The Real Hack Plan
+
 Attention Duke,
 
 The cyber attack is planned against Britain and its allied forces is planned for:
