@@ -142,9 +142,51 @@ Type `cd emails`{{execute}} and press enter.
 List the contents of the emails folder using the __ls__ command.
 Type `ls`{{execute}} and press enter.
 
-You will see the following files. 
-`cat hack.msg`{{execute}}  
+You will see 2 files - one image file and the other a msg file.
+`TheBlackPanther.jpg  hack.msg`
 
+To read the contents of the hack.msg file, use the __cat__ command.
+Type `cat hack.msg`{{execute}} and press enter.
+
+You will see an email, but this email as you read through to the end, you will learn that this is a fake email and that the real hack plan is hidden here.
+There is also a clue at the end of the message .
+`From: Zimmermann <a.z@gfo.de>
+Date: January 19, 1917 at 04:11:00 AM CDT
+To: Duke <duke@gfo.de>
+Cc:
+Subject: Fake Hack Plan
+-----------------------
+Attention Duke,
+
+The cyber attack is planned against Britain and its allied forces is planned for:
+
+April 01, 1917 1800 hrs.
+
+Given below are the details of the cyber attack.
+
+Start with the launch of the enigma virus followed by an amorous note from Melissa.
+If you get stuck in any of those exploits, then unleash the Stux on the Network.
+
+Auf Wiedersehen,
+AZ
+
+PS: You think you got us, the cyber attack is not to be executed on
+April 01, 1917 at 6:00 PM as indicated above.
+The real hack plan is hidden here.
+TheBlackPanther strikes again.
+To open hidden hack plan a password is needed, which you will get by solving the riddle below.
+
+"I have a long sticky tongue,
+I can roll my eyes independantly in different directions,
+I can change colors."
+Who Am I?`
+
+Since the real hack plan is hidden here, we can try to use the `ls -la` command.
+Type `ls -la`{{execute}} and press enter.
+You will notice that there are no other files other than the false hack.msg and TheBlackPanther.jpg.
+
+
+Since the only other file that is in that folder is TheBlackPanther.jpg,
 (visit localhost:8099 on browser)  
 Click on the tab which says CIA Website
 
