@@ -177,7 +177,7 @@ TheBlackPanther strikes again.
 To open hidden hack plan a password is needed, which you will get by solving the riddle below.
 
 "I have a long sticky tongue,
-I can roll my eyes independantly in different directions,
+I can roll my eyes independently in different directions,
 I can change colors."
 Who Am I?`
 
@@ -185,15 +185,73 @@ Since the real hack plan is hidden here, we can try to use the `ls -la` command.
 Type `ls -la`{{execute}} and press enter.
 You will notice that there are no other files other than the false hack.msg and TheBlackPanther.jpg.
 
+Type `ls -la`{{execute}} and press enter.
+You will notice that there are no other files other than hack.msg and the
+TheBlackPanther.jpg file.
 
-Since the only other file that is in that folder is TheBlackPanther.jpg,
-(visit localhost:8099 on browser)  
-Click on the tab which says CIA Website
+Click on the Tab which reads `CIA Website` and a new browser window will open with the words
+`Welcome to CyberShaolin Intelligence Agency (CIA)
+Here you will see the picture of a the Black Panther, the moniker of a German Spy that the FBI used to call "The Duke"
+[Image of a Black Panther is shown here.]
 
-`cat password_hint.txt`{{execute}}
+Black Panther Image Credits: kitty mcgritty`
 
-`steghide extract -sf TheBlackPanther.jpg`{{execute}} (using chameleon)  
+It seems like German Spy Frederick Joubert Duquesne whom the FBI used to call the  'Duke' had hidden a secret message within the TheBlackPanther image using steganography. We need to extract that message from the TheBlackPanther image and for that we will need a passphrase.
 
-`cat realHack.msg`{{execute}}  
+From the fake email, we can guess that the animals which roll their eyes and can change colors are squids and chameleons. So the password may be one of them.
 
-`base64 -d realHack.msg`{{execute}}  
+To try and extract the secret message, using the __steghide__ command,
+Type `steghide extract -sf TheBlackPanther.jpg`{{execute}} and press enter.
+
+When you are prompted for the passphrase as shown below
+`root@b43c55752244:/home/Duke/hampshire/emails# steghide extract -sf TheBlackPanther.jpg
+Enter passphrase:`
+try 'squid'. Note, you will not see any characters as it is a passphrase.
+You will be informed that it was not possible to extract data with that passphrase! as shown below.
+`steghide: could not extract any data with that passphrase!`
+
+To try again,
+Type `steghide extract -sf TheBlackPanther.jpg`{{execute}} and press enter.
+This time try the passphrase 'chameleon'
+
+You will notice that the hidden data in the TheBlackPanther.jpg file was extracted and written to a file named 'realHack.msg'
+`wrote extracted data to "realHack.msg".``
+
+Let us open up the realHack.msg file using the __cat__ command.
+Type `cat realHack.msg`{{execute}} and press enter.
+
+You will see some text that would seems like it is gibberish (as shown below). It is actually encoded - encoded with base64 encoding, which is trivial to decode.
+`RnJvbTogWmltbWVybWFubiA8YS56QGdmby5kZT4KRGF0ZTogSnVseSA0LCAyMDE5IGF0IDA0OjExOjAwIEFNIENEVApUbzogRHVrZSA8ZHVrZUBnZm8uZGU+CkNjOgpTdWJqZWN0OiBUaGUgUmVhbCBIYWNrIFBsYW4KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQXR0ZW50aW9uIER1a2UsCgpUaGUgY3liZXIgYXR0YWNrIGlzIHBsYW5uZWQgYWdhaW5zdCBCcml0YWluIGFuZCBpdHMgYWxsaWVkIGZvcmNlcyBpcyBwbGFubmVkIGZvcjoKCkZlYiAyMCwgMjAyMCAxODAwIGhycy4KCkdpdmVuIGJlbG93IGFyZSB0aGUgZGV0YWlscyBvZiB0aGUgY3liZXIgYXR0YWNrLgpTdGFydCB3aXRoIHRoZSBsYXVuY2ggb2YgdGhlIGVuaWdtYSB2aXJ1cyBmb2xsb3dlZCBieSBhbiBhbW9yb3VzIG5vdGUgZnJvbSBNZWxpc3NhLgoKSWYgeW91IGdldCBzdHVjayBpbiBhbnkgb2YgdGhvc2UgZXhwbG9pdHMsIHRoZW4gdW5sZWFzaCB0aGUgU3R1eCBvbiB0aGUgTmV0d29yay4KCkF1ZiBXaWVkZXJzZWhlbiwKQVoKClBTOiBDb25ncmF0dWxhdGlvbnMuIFlvdSBoYXZlIHN1Y2Nlc3NmdWxseSBjb21wbGV0ZWQgdGhlIGhhY2tpbmctc2VjcmV0cyBoYWNrZXJjaXNlLg==
+
+This message is top secret and encoded.
+You would need to go to the cyber Base 64 to decode it.
+AZ`
+
+To decode the realHack.msg file, we can used the __base64 -d__ command.  
+Type `base64 -d realHack.msg`{{execute}} and press enter.
+
+You will now have the real Hack message decoded and displayed as shown.
+`From: Zimmermann <a.z@gfo.de>
+Date: July 4, 2019 at 04:11:00 AM CDT
+To: Duke <duke@gfo.de>
+Cc:
+Subject: The Real Hack Plan
+-----------------------
+Attention Duke,
+
+The cyber attack is planned against Britain and its allied forces is planned for:
+
+Feb 20, 2020 1800 hrs.
+
+Given below are the details of the cyber attack.
+Start with the launch of the enigma virus followed by an amorous note from Melissa.
+
+If you get stuck in any of those exploits, then unleash the Stux on the Network.
+
+Auf Wiedersehen,
+AZ
+
+PS: Congratulations. You have successfully completed the hacking-secrets hackercise.N�base64: invalid input`
+
+Congratulations, you have successfully completed the hacking secrets hackercise, agent Bourne.
+The CyberShaolin Intelligence Agency of proud of agents such as yourself.
