@@ -154,7 +154,7 @@ There is also a clue at the end of the message .
 Date: January 19, 1917 at 04:11:00 AM CDT
 To: Duke <duke@gfo.de>
 Cc:
-Subject: Fake Hack Plan
+Sub: FAKE Hack Plan
 -----------------------
 Attention Duke,
 
@@ -235,7 +235,7 @@ You will now have the real Hack message decoded and displayed as shown.
 Date: July 4, 2019 at 04:11:00 AM CDT
 To: Duke <duke@gfo.de>
 Cc:
-Subject: The Real Hack Plan
+Sub: The Real Hack Plan
 -----------------------
 Attention Duke,
 
