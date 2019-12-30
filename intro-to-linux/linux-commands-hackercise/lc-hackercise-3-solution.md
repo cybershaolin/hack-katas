@@ -1,4 +1,4 @@
-Solution - Linux Commands Hackercise
+Solution - Dragon Warrior Linux Command Hackercise
 
 The solution to the hackercise is given below, but we highly recommend that you try to 'hack' and solve it with the knowledge of Linux Commands that you have gained. If you are stuck, you can obviously look at the command(s) to run, but first try on your own.
 
@@ -193,18 +193,66 @@ List the contents of that directory using the __ls__ command.
 Type `ls`{{execute}} and press enter.
 You will notice that there is a file called 'message_from_crane.txt' directory and a directory called scrolls.
 
-First read the contents of that file using the __cat__ 
+First read the contents of that file using the __cat__
 Type `cat message_from_crane.txt`{{execute}} and press enter.
+You will see the following message.
+`Oh my gosh.
+You came just in time.
+I was just sorting out my scrolls and
+I accidentally dropped the Dragon Scroll
+in a pile full of identical scrolls.
+Please help find the diff(erence) between the 3 scrolls
+to find the real one.`
 
 Navigate into the 'scrolls' folder using the __cd__ command.
-`cd scrolls`{{execute}}
+Type `cd scrolls`{{execute}} and press enter.
 
-`diff3 scroll_1.txt scroll_2.txt scroll_3.txt`{{execute}}
+When you list the contents of that directory you will find that there are the three files as the message indicated.
+Type `ls`{{execute}} and press enter.
 
-`locate Shifu`{{execute}}
+To find out the real scroll file, you would need to find the difference between these three files.
+We will use the __diff3__ command to find the difference between these three files, since opening each file and reading the contents would be very hard to spot the difference between these files.
 
-`cd /root/.Shifu/`{{execute}}
+Type `diff3 scroll_1.txt scroll_2.txt scroll_3.txt`{{execute}} and press enter.
+You will see the following
+`====2
+1:32a
+3:32a
+2:33c
+   ^`^|Your final test is to find the Dragon Scroll that Shifu has hidden somewhere. ^`^}`
 
-`ls`{{execute}}
+This indicates that the file that is different is the second file (===2) and it is on line 33 (2:33) that file is different.
+It also show how that file is different from the other files.
+The line that is in this second file that is not in the others will inform you that the Dragon Scroll has been hidden by Shifu somewhere.
 
-`cat the_dragon_scroll.txt`{{execute}}
+Let us __locate__ Shifu to find the Dragon Scroll.  
+Type `locate Shifu`{{execute}} and press enter.
+You will see that Shifu has hidden the dragon scroll (renamed alphanumerically) in a hidden directory called .Shifu located in the /root directory (as shown below)
+`/root/.Shifu
+/root/.Shifu/the_dragon_scr011.txt`
+
+Navigate into the .Shifu directory using the __cd__ command.
+Type `cd /root/.Shifu/`{{execute}} and press enter.
+
+Then list the contents of the directory using the __ls__ command.
+Type `ls`{{execute}} and press enter.
+
+You will see that the The Dragon Scroll file is in that directory. It is however named the_dragon_scr011.txt (note the 'oll' is actually '011')
+
+You found The Dragon Scroll.
+Now there is one thing left to do. Open and read the contents of The Dragon Scroll.
+
+Type `cat the_dragon_scr011.txt`{{execute}} and press enter.
+You should see the following
+
+`Congratulations Cyber Dragon Warrior!
+You have found the Legendary Linux Commands Dragon Scroll.
+Now you have unlocked your true hacker syntax potential.
+Always remember to use your cyber skills for the good of humanity.
+Shifu Reuben.
+
+And one more thing, if you have a twitter account then send
+Shifu Reuben (@RAPst4r) a tweet saying that you are a
+Linux Command Cyber Dragon Warrior.`
+
+You have successful completed the Dragon Warrior Linux Command Hackercise.
