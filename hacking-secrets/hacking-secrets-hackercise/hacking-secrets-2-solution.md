@@ -107,7 +107,7 @@ The message reads:
 You may want to explore the cities that spies like me hang out. You can take my "word(list)" for it.`
 
 It seems like 'Duke' has generated his ssh_duke.hash file with a password and we can use the spy_cities.txt file as the wordlist to try and discover it using 'john'.
-Type`john -wordlist=spy_cities.txt ssh_duke.hash`{{execute}}  and press enter.
+Type`john ssh_duke.hash -wordlist=spy_cities.txt`{{execute}}  and press enter.
 
 You will see that a password was loaded from the wordlist and it was cracked. The password to unzip the emails.zip file is `bermuda` as shown below.
 `Loaded 1 password hash (SSH [RSA/DSA/EC/OPENSSH (SSH private keys) 32/64])
@@ -148,7 +148,7 @@ You will see 2 files - one image file and the other a msg file.
 To read the contents of the hack.msg file, use the __cat__ command.
 Type `cat hack.msg`{{execute}} and press enter.
 
-You will see an email, but this email as you read through to the end, you will learn that this is a fake email and that the real hack plan is hidden here.
+You will see an email, but as you read this email till the end, you will learn that this is a fake email and that the real hack plan is hidden here.
 There is also a clue at the end of the message .
 `From: Zimmermann <a.z@gfo.de>
 Date: January 19, 1917 at 04:11:00 AM CDT
