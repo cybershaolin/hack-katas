@@ -2,7 +2,7 @@ Solution - CIA Agent Bourne Hacking Secrets Hackercise
 
 The solution to the hackercise is given below, but we highly recommend that you try to 'hack' and solve it with the knowledge of Hacking Secrets that you have gained. If you are stuck, you can obviously look at the command(s) to run, but first try on your own.
 
-As an agent, let us first run the 'ls' command to find our what is available in the
+As an agent, it is important that you read all instructions given. However, if you missed reading that you have to read the DEBRIEF message in the /home directory, you can follow the steps below to get there.
 
 Type `ls`{{execute}}  and press enter.
 
@@ -102,7 +102,7 @@ You will need to find the password to unzip the emails.zip file.
 Looking at that folder, looks like there is a secret message (shh.msg) in that folder that we can try to open using the __cat__ command.
 
 Type `cat shh.msg`{{execute}} and press enter.
-The message reads
+The message reads:
 `In order to proceed, you need to quietly shh find the password that protects my stash, I mean hash.
 You may want to explore the cities that spies like me hang out. You can take my "word(list)" for it.`
 
