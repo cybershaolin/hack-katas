@@ -96,7 +96,7 @@ Type `ls`{{execute}} and press enter.
 You will find two files - one named 'jars.tar' and the other named 'message_from_mantis' in that directory (as shown below).
 `jars.tar  message_from_mantis`
 
-First open  that you can open using the __cat__ command.
+First open the message using the __cat__ command.
 Type `cat message_from_mantis`{{execute}} and press enter.
 You will see the following when you open that file.
 `Hey what's up, Dragon Warrior?
