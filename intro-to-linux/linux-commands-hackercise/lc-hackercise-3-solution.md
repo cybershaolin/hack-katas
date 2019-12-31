@@ -52,7 +52,7 @@ so you may want to specifically search for 'scroll'`
 
 We should try and locate the "training_hall" next, which we can do using the following command.
 Type `locate training_hall`{{execute}} and press enter.
-You should see a warning about the cache being old and it actual age, that you can ignore. .Then you will see that that is a directory call "training_hall" and a file name "training_equipment" within that directory.
+You should see a warning about the cache being old and it actual age, that you can ignore. Then you will see that that is a directory call "training_hall" and a file name "training_equipment" within that directory.
 `locate: warning: database '/var/cache/locate/locatedb' is more than 8 days old (actual age is 28.9 days)
 /training_hall
 /training_hall/training_equipment`
@@ -61,9 +61,9 @@ Let us navigate into the "training_hall" directory using the __cd__ command as s
 Type `cd ../../training_hall`{{execute}} and press enter.
 
 We could open and read the contents of the "training_equipment" file using the __cat__ command, but if you do that, you will notice that the "training_equipment" has in it a lot of weapons types and belts. You can go through each item in that list to find the scroll, but that could take time.
-As the instructions were to specifically search for 'scroll', we can use the __grep__ command as learned during training to search for the word 'scroll' inside the 'training_equipment' file.
+As the instructions were to specifically search for 'scroll', we can use the __grep__ command to search for the word 'scroll' inside the 'training_equipment' file.
 Type `grep 'scroll' training_equipment`{{execute}} and press enter.
-You will that a 'fake scroll' is found and the instructions are to 'Visit Monkey' as shown below.
+The search results will show that a 'fake scroll' is found and the instructions are to 'Visit Monkey' as shown below.
 `fake scroll:Visit Monkey`
 
 So let us __locate__ the Monkey directory next.
