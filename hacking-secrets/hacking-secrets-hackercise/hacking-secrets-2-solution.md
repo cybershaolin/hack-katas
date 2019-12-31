@@ -1,8 +1,8 @@
-Solution - CIA Agent Bourne Hacking Secrets Mission Hackercise
+Solution - CIA Agent Bourne Hacking Secrets Hackercise
 
 The solution to the hackercise is given below, but we highly recommend that you try to 'hack' and solve it with the knowledge of Hacking Secrets that you have gained. If you are stuck, you can obviously look at the command(s) to run, but first try on your own.
 
-As a agent, let us first run the 'ls' command to find our what is available in the
+As an agent, let us first run the 'ls' command to find our what is available in the
 
 Type `ls`{{execute}}  and press enter.
 
@@ -80,7 +80,7 @@ You will be asked a password to unzip the file as shown below
 Type in the previously cracked password (blackpanther) and press enter.
 Note since you are typing in the password, you will not see any text on the screen.
 
-Upon successfully entering the password and pressing enter, you will see that the hampshire.zip file is unzipped and and the following files will be extracted and placed in a folder called 'hampshire'
+Upon successfully entering the password and pressing enter, you will see that the hampshire.zip file is unzipped and the following files will be extracted and placed in a folder called 'hampshire'
 `  inflating: hampshire/spy_cities.txt
   inflating: hampshire/shh.msg
   inflating: hampshire/ssh_duke.hash
@@ -181,13 +181,9 @@ I can roll my eyes independently in different directions,
 I can change colors."
 Who Am I?`
 
-Since the real hack plan is hidden here, we can try to use the `ls -la` command.
+Since the real hack plan is hidden here, we can try to use the `ls -la` command to find hidden files.
 Type `ls -la`{{execute}} and press enter.
 You will notice that there are no other files other than the false hack.msg and TheBlackPanther.jpg.
-
-Type `ls -la`{{execute}} and press enter.
-You will notice that there are no other files other than hack.msg and the
-TheBlackPanther.jpg file.
 
 Click on the Tab which reads `CIA Website` and a new browser window will open with the words
 `Welcome to CyberShaolin Intelligence Agency (CIA)
@@ -198,7 +194,7 @@ Black Panther Image Credits: kitty mcgritty`
 
 It seems like German Spy Frederick Joubert Duquesne whom the FBI used to call the  'Duke' had hidden a secret message within the TheBlackPanther image using steganography. We need to extract that message from the TheBlackPanther image and for that we will need a passphrase.
 
-From the fake email, we can guess that the animals which roll their eyes and can change colors are squids and chameleons. So the password may be one of them.
+From the fake email, we can guess that the animals which roll their eyes and can change colors are squids and chameleons. So, the password may be one of them.
 
 To try and extract the secret message, using the __steghide__ command,
 Type `steghide extract -sf TheBlackPanther.jpg`{{execute}} and press enter.
