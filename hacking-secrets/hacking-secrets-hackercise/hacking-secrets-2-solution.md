@@ -206,11 +206,11 @@ try 'squid'. Note, you will not see any characters as it is a passphrase.
 You will be informed that it was not possible to extract data with that passphrase! as shown below.
 `steghide: could not extract any data with that passphrase!`
 
-To try again,
+To try again, type the same command and try again.
 Type `steghide extract -sf TheBlackPanther.jpg`{{execute}} and press enter.
 This time try the passphrase 'chameleon'
 
-You will notice that the hidden data in the TheBlackPanther.jpg file was extracted and written to a file named 'realHack.msg'
+You will notice that the hidden data in the TheBlackPanther.jpg file was extracted and written to a file named 'realHack.msg' as shown below.
 `wrote extracted data to "realHack.msg".``
 
 Let us open up the realHack.msg file using the __cat__ command.
@@ -251,4 +251,4 @@ PS: Congratulations. You have successfully completed the hacking-secrets hackerc
 
 Congratulations, you have successfully completed the hacking secrets hackercise, agent Bourne.
 
-The CyberShaolin Intelligence Agency of proud of agents such as yourself.
+The CyberShaolin Intelligence Agency (CIA) is proud of agents such as yourself.
