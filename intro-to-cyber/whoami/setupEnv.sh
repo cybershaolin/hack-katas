@@ -1,2 +1,2 @@
 echo "Creating Cybershaolin Learning Environment"
-docker run -it cybershaolin/whois /bin/bash
+docker run -h cybershaolin -it cybershaolin/whois /bin/bash
