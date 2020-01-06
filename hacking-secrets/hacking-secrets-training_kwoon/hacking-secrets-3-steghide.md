@@ -12,7 +12,10 @@ We are going to be using a tool called steghide that can hide data in images or 
 
 First navigate into the `stego` folder in the is in nested under the folder called `reuben` in the `home` directory.  
 
-Type `cd /home/reuben/stego`{{execute}} and press enter.  
+Type `cd ..`{{execute}} and press enter to navigate to the parent (previous) directory.  
+Then type `ls`{{execute}} and type enter to list the contents of that directory.  
+
+You will notice that there is a directory called `stego` in there. Now navigate to that `stego` directory by using the `cd` command. Type `cd stego` from the `reuben` directory.
 Then type `ls`{{execute}} and type enter to list the contents of that directory.  
 
 __The hacker bros - More than what meets the eye__  
