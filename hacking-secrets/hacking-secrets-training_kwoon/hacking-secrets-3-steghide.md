@@ -22,9 +22,10 @@ __The hacker bros - More than what meets the eye__
 You should see a image named `hacker_bros.png`. In order to see the image, there are a few things you can do.
 Click on the Tab that says `HackerBros Website`. This should open up your default browser and display a web page with the image in it.
 
-The web page will give you a description about the image and then inform you that `there is more to this than what meets the eye` and that there is a `hidden message` that you must try to uncover.  
+The web page will give you a description about the image and then inform you that `There is more to this than what meets the eye` and that there is a `hidden message` that you must try to uncover.  
 
-This informs you that using Steganography, some information is hidden in the image.
+This informs you that Steganography is being used to hide a message inside the `hacker_bros.png` image file, some information is hidden in the image.
+
 To find out what the `hidden message` is, we need to extract the message from the image itself.  
 
 __An enigma__  
