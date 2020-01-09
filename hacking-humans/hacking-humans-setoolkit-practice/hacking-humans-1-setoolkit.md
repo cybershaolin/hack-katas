@@ -89,4 +89,4 @@ Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that ther
     [password] => klmsR0x
 )`
 
-You just successfully social engineered and hacked someone. 
+You have learned how to successfully social engineer and hack someone!
