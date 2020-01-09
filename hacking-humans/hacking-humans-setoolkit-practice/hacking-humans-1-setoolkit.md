@@ -1,14 +1,14 @@
 In the previous lessons you learned about what phishing is. This lesson will use a tool called setoolkit to create a fake cloned website and harvest their credentials.
 
-Normally, the first thing we will do is to start setoolkit you can do this by typing './setoolkit' within the 'set' folder, but we have already do that for you.
+Normally, the first thing we will do is to start the setoolkit program, which you can do  by typing './setoolkit' within the 'set' folder, in a hacker distro. But we have already done this for you.
 
-You should see a list of different options we can choose from.  
+You should see a list of different options that you can choose from.  
 
-Since we are going to be tricking the user into giving secretive information of theirs away. We are going to be executing a `Social Engineering Attack` or option number `1`{{execute}}.  
+Since we are going to be tricking the user into giving secretive information. We are going to be executing a `Social Engineering Attack`. Select option number `1`{{execute}}.  
 
-Because we are creating a fake cloned website we will select the `Website Attack Vectors` option type `2`{{execute}}.  
+Because we will be creating a fake cloned website, we will choose the `Website Attack Vectors` option by selecting option number  `2`{{execute}}.  
 
-We are going to be stealing the victims username and password otherwise known as `Credential Harvesting` type option number `3`{{execute}}.  
+Using that fake cloned website, we will be attempting to steal the victims username and password (or credentials). So we will choose the `Credential Harvesting` attack type, which is option number `3`{{execute}}.  
 
 We will be creating a site that looks and seems exactly like another website. Select the `Site Cloner` choice number `2`{{execute}}.  
 
@@ -38,7 +38,7 @@ fields are available. Regardless, this captures all POSTs on a website.
 [*] You may need to copy /var/www/* into /var/www/html depending on where your directory structure is.
 Press {return} if you understand what we're saying here.`
 
-Press `enter` or `return` {{exectue}}
+Press `enter` or `return`{{exectue}}
 
 You will see a message like `[*] Apache is set to ON - everything will be placed in your web root directory of apache.
 [*] Files will be written out to the root directory of apache.
@@ -56,15 +56,37 @@ Feel free to customize post.php in the /var/www/html directory
 [*] All fields captures will be displayed below.
 [Credential Harvester is now listening below...]`
 
-Let us go to that folder, type Ctrl-C then enter and then type `exit`{{execute}} to get out of the setoolkit tool.
+Let's pretend that you sent a phishing email to a target telling them to check out a cool new post/tweet and you gave them the fake link. You can go even to the extent of masking the IP or the link so that the like looks legitimate like it is from twitter.com (For time purposes we won't though). Normally most people would click on it, especially if they trust you.
 
-Now `cd /var/www/html`{{execute}} to navigate to that directory.
-Let's pretend that you sent the victim with an email saying to check out a cool new post and you gave them this link. You can go even to the extent of masking the IP so the link looks legitimate like twitter.com (for time purposes we won't though). Normally people would click on it. Now that we have the attackers side set up let us play the victim.
+Now that we have the attackers side set up, let us play the victim.
 
-Click on the `Hacker Website` tab. It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login. Type in a fake username and password it can be anything. An example would be klms_student (username) and klmsR0x (password).  
+Click on the `Hacker Website` tab. It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login.
+Type in a username and password. It can be anything. An example would be klms_student (username) and klmsR0x (password). It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click Login.
 
-Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. The credentials we hacked will be in this file. The harvester may be different for all of us, but you can `cat` your unique harvester file. Once you cat it you should see something like with the credentials that got hacked.
+On the terminal window you should see the username and password that you typed in the browser displayed as shown below:
+`('Array\n',)
+('(\n',)
+('    [session] => Array\n',)
+('        (\n',)
+('            [username_or_email] => klms_student\n',)
+('            [password] => klmsR0x\n',)
+('        )\n',)
+('\n',)
+`
+This same information is also logged in a log file in the `/var/www/html` directory. That file is named with the timestamp when the log entry was made.
+Type Ctrl-C on the terminal window to close the setoolkit program. You will get a notice though you are exiting the program, the social engineering credential harvester request is still running and logging as shown below.
+`[*] Exiting the menu - note that everything is still running and logging under your web directory path: /var/www/html
+{Press return to continue}`
+
+Press return{{execute}} to continue.
+Then type `exit`{{execute}} in the prompt `set:webattack>` to get out of the setoolkit tool.
+
+In the command prompt, type `cd /var/www/html`{{execute}} to navigate to directory where the log files are.
+
+Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. E.g., `harvester_2020-01-08 21:39:55.714597.txt` The credentials we hacked will be in this file. You can read the contents of this file using the `cat` command. `cat` the harvester file with the latest timestamp. Once you `cat` that file, you should see something like with the credentials that got hacked in it.
 `(
     [username_or_email] => klms_student
     [password] => klmsR0x
 )`
+
+You just successfully social engineered and hacked someone. 
