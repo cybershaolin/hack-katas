@@ -61,7 +61,8 @@ Let's pretend that you sent a phishing email to a target telling them to check o
 Now that we have the attackers side set up, let us play the victim.
 
 Click on the `Hacker Website` tab. It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login.
-Type in a username and password. It can be anything. An example would be klms_student (username) and klmsR0x (password). It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click Login.
+Note: Since it is possible that the login page may be localized in a language from where the webserver is hosted. You can click on translate if prompted to translate the page.
+Type in a username and password. It can be anything. An example would be klms_student (username) and klmsR0x (password). It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click on the button that says Login (or if translated it may say Register).
 
 On the terminal window you should see the username and password that you typed in the browser displayed as shown below:
 `('Array\n',)
