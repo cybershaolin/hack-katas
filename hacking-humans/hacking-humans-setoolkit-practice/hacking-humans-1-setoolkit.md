@@ -25,16 +25,16 @@ NOTE: YOUR URL MAY BE DIFFERENT, but it should look something like when you past
 Now copy this URL and paste it into the setoolkit window where it asks for IP Address
 NOTE: The reason we do the step of using a text editor to strip out the unneeded protocol ("https://") and trailing forward slash ("/") is because it is difficult to edit within the setoolkit window once the URL is pasted.
 
-Press enter to continue.
+Press `enter` to continue.
 
-Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login`{{execute}}. This is the website we will be cloning.
+Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login?lang=en`{{execute}}. This is the website we will be cloning.
 
 You will see a message like
-`[*] Cloning the website: https://twitter.com/login
+`[*] Cloning the website:https://twitter.com/login?lang=en
 [*] This could take a little bit...
 
-The best way to use this attack is if username and password form
-fields are available. Regardless, this captures all POSTs on a website.
+The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.
+
 [*] You may need to copy /var/www/* into /var/www/html depending on where your directory structure is.
 Press {return} if you understand what we're saying here.`
 
@@ -57,11 +57,14 @@ Feel free to customize post.php in the /var/www/html directory
 [Credential Harvester is now listening below...]`
 
 Leave the credential harvester running for now. We will come back to this later.
+
 Now, let us pretend that you sent a phishing email to a target telling them to check out a cool new post/tweet and you gave them the fake link. You can go even to the extent of masking the IP or the link so that the link looks legitimate; like it is from twitter.com (For time purposes, we won't do this). Normally most people would click on it, especially if they trust you.
 
-Now think of yourself as the one receiving the phishing email and you clicked on the link. To simulate this, click on the tab that reads `Hacker Website` (this will be the phishing website that a real user would get redirected to when they click on the phishing link). It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login.
+Now think of yourself as the one receiving the phishing email and you clicked on the link. To simulate this, click on the tab that reads `Hacker Website` (this will be the phishing website that a real user would get redirected to when they click on the phishing link). It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://twitter.com/login?lang=en.
+
 Note: Since it is possible that the login page may be localized in a language from where the webserver is hosted. You can click on translate if prompted to translate the page.
-Type in a username and password. It can be anything. An example would be klms_student (username) and klmsR0x (password). It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click on the button that says Login (or if translated it may say Register).
+
+Type in a `username` and `password`. It can be anything. It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click on the button that says `Login` (or if translated it may say Register).
 
 On the terminal window you should see the username and password that you typed in the browser displayed as shown below:
 `('Array\n',)
@@ -73,17 +76,20 @@ On the terminal window you should see the username and password that you typed i
 ('        )\n',)
 ('\n',)
 `
-This same information is also logged in a log file in the `/var/www/html` directory. That file is named with the timestamp when the log entry was made.
-Type Ctrl-C on the terminal window to close the setoolkit program. You will get a notice though you are exiting the program, the social engineering credential harvester request is still running and logging as shown below.
+This same information is also logged inside a log file in the `/var/www/html` directory. That file is named with the timestamp when the log entry was made.
+
+Go back to the `Terminal` window where the Credential harvester is running.
+
+Press `Ctrl-C` on the terminal window to close the setoolkit program. You will get a notice though you are exiting the program, the social engineering credential harvester request is still running and logging as shown below.
 `[*] Exiting the menu - note that everything is still running and logging under your web directory path: /var/www/html
 {Press return to continue}`
 
-Press return{{execute}} to continue.
+Press the enter key or return {{execute}} to continue.
 Then type `exit`{{execute}} in the prompt `set:webattack>` to get out of the setoolkit tool.
 
 In the command prompt, type `cd /var/www/html`{{execute}} to navigate to directory where the log files are.
 
-Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. E.g., `harvester_2020-01-08 21:39:55.714597.txt` The credentials we hacked will be in this file. You can read the contents of this file using the `cat` command. `cat` the harvester file with the latest timestamp. Once you `cat` that file, you should see something like with the credentials that got hacked in it.
+Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. E.g., `harvester_2020-01-11 21:39:55.714597.txt` The credentials we hacked will be in this file. You can read the contents of this file using the `cat` command. `cat` the harvester file with the latest timestamp. Once you `cat` that file, you should see something like with the credentials that got hacked in it.
 `(
     [username_or_email] => klms_student
     [password] => klmsR0x
