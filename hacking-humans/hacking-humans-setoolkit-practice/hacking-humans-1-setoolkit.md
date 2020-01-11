@@ -2,7 +2,7 @@ In the previous lessons you learned about what phishing is. This lesson will use
 
 Normally, the first thing we will do is to start the setoolkit program, which you can do  by typing './setoolkit' within the 'set' folder, in a hacker distro. But we have already done this for you.
 
-You should see a list of different options that you can choose from.  
+You should see a list of different options that you can select from.  
 
 Since we are going to be tricking the user into giving secretive information. We are going to be executing a `Social Engineering Attack`. Select option number `1`{{execute}}.  
 
