@@ -56,11 +56,10 @@ Feel free to customize post.php in the /var/www/html directory
 [*] All fields captures will be displayed below.
 [Credential Harvester is now listening below...]`
 
-Let's pretend that you sent a phishing email to a target telling them to check out a cool new post/tweet and you gave them the fake link. You can go even to the extent of masking the IP or the link so that the like looks legitimate like it is from twitter.com (For time purposes we won't though). Normally most people would click on it, especially if they trust you.
+Leave the credential harvester running for now. We will come back to this later.
+Now, let us pretend that you sent a phishing email to a target telling them to check out a cool new post/tweet and you gave them the fake link. You can go even to the extent of masking the IP or the link so that the link looks legitimate; like it is from twitter.com (For time purposes, we won't do this). Normally most people would click on it, especially if they trust you.
 
-Now that we have the attackers side set up, let us play the victim.
-
-Click on the `Hacker Website` tab. It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login.
+Now think of yourself as the one receiving the phishing email and you clicked on the link. To simulate this, click on the tab that reads `Hacker Website` (this will be the phishing website that a real user would get redirected to when they click on the phishing link). It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://www.twitter.com/login.
 Note: Since it is possible that the login page may be localized in a language from where the webserver is hosted. You can click on translate if prompted to translate the page.
 Type in a username and password. It can be anything. An example would be klms_student (username) and klmsR0x (password). It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click on the button that says Login (or if translated it may say Register).
 
