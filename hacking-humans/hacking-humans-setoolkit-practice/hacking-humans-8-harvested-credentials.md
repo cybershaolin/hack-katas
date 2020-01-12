@@ -1,5 +1,3 @@
-__Harvested or Logged Credentials__
-
 The setoolkit also logs the same information that you see displayed on the terminal window into a log file or harvester file. This harvester file is in the `/var/www/html` directory. The file is named with with the timestamp when the credential harvester attack was initiated.
 
 In the command prompt, type `cd /var/www/html`{{execute}} to navigate to directory where the log files are.  
