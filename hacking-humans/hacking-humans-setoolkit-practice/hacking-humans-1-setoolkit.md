@@ -19,7 +19,7 @@ The reason why we need to type in our IP address in setoolkit is because when th
 
 The IP address we will be using the IP address of the webserver where the setoolkit is running. DON'T use localhost:8099 which we would use if we were testing it locally.  
 
-In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser. This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com/`{{copy}}  
+In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser. This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com`{{copy}}  
 Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>) this URL shown above and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) it into the setoolkit window where it asks for IP Address.
 Press <kbd>enter</kbd> or <kbd>return</kbd> to continue.  
 
