@@ -10,7 +10,7 @@ Because we will be creating a fake cloned website, we will choose the `Website A
 
 Using that fake cloned website, we will be attempting to steal the victims username and password (or credentials). So we will choose the `Credential Harvesting` attack type, which is option number `3`{{execute}}.  
 
-We will be creating a site that looks and seems exactly like another website. Select the `Site Cloner` choice number `2`{{execute}}.  
+We will be creating a site that looks and seems exactly like another website. Select the `Site Cloner` choice number `2`{{execute}}.
 
 __IP Address__
 The IP address also known as the internet protocol address is a unique series of numbers that shows your device is either a host network or connected to a host network so you can browse and search the internet. Our computer is provided this IP address by the router and internet network we are connected to.  

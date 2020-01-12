@@ -11,8 +11,40 @@
         "text": "hacking-humans-start.md"
       },
       {
-        "title": "Phishing using Social Engineer Toolkit (setoolkit)",
-        "text": "hacking-humans-1-setoolkit.md"
+        "title": "Social Engineer Toolkit (setoolkit) Setup",
+        "text": "hacking-humans-1-setoolkit-setup.md"
+      },
+      {
+        "title": "Postback Location",
+        "text": "hacking-humans-2-postback-location.md"
+      },
+      {
+        "title": "Cloning Website",
+        "text": "hacking-humans-3-cloning-website.md"
+      },
+      {
+        "title": "Start Harvesting Webserver",
+        "text": "hacking-humans-4-start-harvesting-webserver.md"
+      },
+      {
+        "title": "Hacking The Victim",
+        "text": "hacking-humans-5-the-victims-view.md"
+      },
+      {
+        "title": "The Hacker's View",
+        "text": "hacking-humans-6-on-the-hackers-side.md"
+      },
+      {
+        "title": "Close setoolkit",
+        "text": "hacking-humans-7-setoolkit-exit.md"
+      },
+      {
+        "title": "Harvested Credentials",
+        "text": "hacking-humans-8-harvested-credentials.md"
+      },
+      {
+        "title": "Read Hacked Credentials",
+        "text": "hacking-humans-9-read-hacked-credentials.md"
       },
       {
         "title": "The End",
