@@ -1,5 +1,5 @@
 echo "Creating Cybershaolin Learning Environment"
-docker run -dit -p 8099:80 cybershaolin/hacking-humans:social
+docker run -dit -p 8099:80 cybershaolin/hacking-humans:social_v1
 docker ps -a
 docker exec -it $(docker ps -aq) /bin/bash
 cd set
