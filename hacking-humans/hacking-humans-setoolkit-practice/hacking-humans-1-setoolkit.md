@@ -19,10 +19,8 @@ The reason why we need to type in our IP address in setoolkit is because when th
 
 The IP address we will be using the IP address of the webserver where the setoolkit is running. DON'T use localhost:8099 which we would use if we were testing it locally.
 
-In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser. This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com`{{copy}}.Copy this URL and paste it into the setoolkit window where it asks for IP Address
-NOTE: The reason we do the step of using a text editor to strip out the unneeded protocol ("https://") and trailing forward slash ("/") is because it is difficult to edit within the setoolkit window once the URL is pasted.
-
-Press `enter` to continue.
+In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser. This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com`{{copy}}.Copy this URL and paste it into the setoolkit window where it asks for IP Address.
+Press `enter` or `return` to continue.
 
 Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login?lang=en`{{execute}}. This is the website we will be cloning.
 
@@ -35,7 +33,7 @@ The best way to use this attack is if username and password form fields are avai
 [*] You may need to copy /var/www/* into /var/www/html depending on where your directory structure is.
 Press {return} if you understand what we're saying here.`
 
-Press `enter` or `return`{{exectue}}
+Press `enter` or `return` to continue.
 
 You will see a message like `[*] Apache is set to ON - everything will be placed in your web root directory of apache.
 [*] Files will be written out to the root directory of apache.
@@ -59,7 +57,7 @@ Now, let us pretend that you sent a phishing email to a target telling them to c
 
 Now think of yourself as the one receiving the phishing email and you clicked on the link. To simulate this, click on the tab that reads `Hacker Website` (this will be the phishing website that a real user would get redirected to when they click on the phishing link). It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real http://twitter.com/login?lang=en.
 
-Note: Since it is possible that the login page may be localized in a language from where the webserver is hosted. You can click on translate if prompted to translate the page.
+Note: Since it is possible that the login page may be localized in a language from where the web server is hosted. You can click on translate if prompted to translate the page.
 
 Type in a `username` and `password`. It can be anything. It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click on the button that says `Login` (or if translated it may say Register).
 
@@ -77,7 +75,7 @@ This same information is also logged inside a log file in the `/var/www/html` di
 
 Go back to the `Terminal` window where the Credential harvester is running.
 
-Press `Ctrl-C` on the terminal window to close the setoolkit program. You will get a notice though you are exiting the program, the social engineering credential harvester request is still running and logging as shown below.
+Press <kbd>Ctrl</kbd>+<kbd>C</kbd> `Ctrl-C`{{execute interrupt}} on the terminal window to close the setoolkit program. You will get a notice though you are exiting the program, the social engineering credential harvester request is still running and logging as shown below.
 `[*] Exiting the menu - note that everything is still running and logging under your web directory path: /var/www/html
 {Press return to continue}`
 
