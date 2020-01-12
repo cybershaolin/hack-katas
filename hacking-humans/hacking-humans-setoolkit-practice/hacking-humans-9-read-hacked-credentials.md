@@ -1,5 +1,3 @@
-__Read Hacked Credentials__
-
 To read the contents of the harvester file, we can use the `cat` command.   
 
 `cat` the harvester file that was created with the timestamp when you conducted the credential harvested attack. It will usually the one with the latest timestamp.
