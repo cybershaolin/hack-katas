@@ -1,5 +1,3 @@
-__The Victim's View__
-
 Now, generally the hacker (you) will send a phishing email to a target user telling them to check out a cool new post/tweet and give them the URL of the website that is cloned. Some will even go to the extent of masking the IP or the URL link so that the link looks legitimate. For time purposes, we won't do this. Normally most people would click on it, especially if they trust you.  
 
 Now think of yourself as the one receiving the phishing email and you clicked on the link.
