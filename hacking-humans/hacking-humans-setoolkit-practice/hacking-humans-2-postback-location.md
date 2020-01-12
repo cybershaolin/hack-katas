@@ -1,5 +1,3 @@
-__Postback Location__
-
 As a hacker, once the victim enters their username and password, we will want to capture that information. In order to do so, we will have to post that information to a location where we can access it. This is the postback IP address or the IP address of the server where the fake cloned website is running.
 
 Normally, we can use `ifconfig` to find the IP address of the webserver, but since we are using a cloud learning environment, we will use the URL that is generated for us when the learning environment is setup.
