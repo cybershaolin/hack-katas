@@ -20,8 +20,8 @@ The reason why we need to type in our IP address in setoolkit is because when th
 The IP address we will be using the IP address of the webserver where the setoolkit is running. DON'T use localhost:8099 which we would use if we were testing it locally.  
 
 In our case, since the instance is running within our learning environment, we will use the URL and specify that as the IP address. This includes the domain, port, host and environment information. To find out this URL, click on the Tab will says 'Hacker Website' and it will open a page in your local browser. This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com/`{{copy}}  
-Copy (`Ctrl + C`{{copy}}) this URL and paste `Ctrl + V`{{paste}} it into the setoolkit window where it asks for IP Address.  
-Press `enter`{{enter}} or `return`{{enter}} to continue.  
+Copy (<kbd>Ctrl</kbd>+<kbd>C</kbd>) this URL shown above and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd>) it into the setoolkit window where it asks for IP Address.
+Press `enter` or `return` to continue.  
 
 Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login?lang=en`{{execute}} This is the website we will be cloning.  
 
@@ -31,7 +31,7 @@ You will see a message like `[*] Cloning the website: https:/ /twitter.com/login
 The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.
 
 You may need to copy /var/www/* into /var/www/html depending on where your directory structure is.
-Press {return} if you understand what we're saying here.`  
+Press {return} if you understand what we're saying here.`
 
 Press `enter` or `return` to continue.  
 
