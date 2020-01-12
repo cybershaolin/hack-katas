@@ -56,15 +56,15 @@ Now, let us pretend that you sent a phishing email to a target telling them to c
 
 Now think of yourself as the one receiving the phishing email and you clicked on the link. To simulate this, click on the tab that reads `Hacker Website` (this will be the phishing website that a real user would get redirected to when they click on the phishing link). It will open up the page and show the cloned (fake) website. You should see a website that looks likes the exact same as the real website at http://twitter.com/login?lang=en.  
 
-Type in a `username` and `password`. It can be anything. It is advisable that for this learning purposes, you do not use your real twitter account username and/or password. Click on the button that says `Login`.  
+Type in a `username` and `password`. It can be anything. For example you can use `CyberShaolin` for the username and `cyb3rn1nja` for the password. It is advisable that for this learning purposes, you do NOT use your real twitter account username and/or password. Click on the button that says `Login`.  
 
 On the terminal window you should see the username and password that you typed in the browser displayed as shown below:  
 `('Array\n',)
 ('(\n',)
 ('    [session] => Array\n',)
 ('        (\n',)
-('            [username_or_email] => klms_student\n',)
-('            [password] => klmsR0x\n',)
+('            [username_or_email] => CyberShaolin\n',)
+('            [password] => cyb3rn1nja\n',)
 ('        )\n',)
 ('\n',)
 `  
@@ -80,10 +80,15 @@ Then type `exit`{{execute}} in the prompt `set:webattack>` to get out of the set
 
 In the command prompt, type `cd /var/www/html`{{execute}} to navigate to directory where the log files are.  
 
-Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. E.g., `harvester_2020-01-11 21:39:55.714597.txt` The credentials we hacked will be in this file. You can read the contents of this file using the `cat` command. `cat` the harvester file with the latest timestamp. Once you `cat` that file, you should see something like with the credentials that got hacked in it.
+Now go back to the `Terminal` window. Type `ls -la`{{execute}} and see that there is a harvester file with a new timestamp. E.g., `harvester_2020-01-11 21:39:55.714597.txt` The credentials we hacked will be in this file.  
+
+You can read the contents of this file using the `cat` command. `cat` the harvester file with the latest timestamp.  
+`Example: cat harvester_2020-01-11 21:39:55.714597.txt`
+
+Once you `cat` that file, you should see something like with the credentials that got hacked in it.
 `(
-    [username_or_email] => klms_student
-    [password] => klmsR0x
+    [username_or_email] => CyberShaolin
+    [password] => cyb3rn1nja
 )`  
 
 You have learned how to successfully social engineer and hack someone!  
