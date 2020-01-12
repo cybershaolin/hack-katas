@@ -1,5 +1,3 @@
-__Start Webserver__
-
 You will see a message like `[*] Apache is set to ON - everything will be placed in your web root directory of apache.
 [*] Files will be written out to the root directory of apache.
 [*] ALL files are within your Apache directory since you specified it to ON.
