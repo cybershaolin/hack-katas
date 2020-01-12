@@ -1,5 +1,3 @@
-__setoolkit Setup__
-
 In the previous lessons you learned about what phishing is. In this lesson, we will use a tool called setoolkit to create (clone) a website and use that fake cloned website to harvest  username and passwords (credentials).  
 
 Normally, the first thing we will do is to start the setoolkit program, which you can do  by typing './setoolkit' within the 'set' folder, in a hacker distro. But we have already done this for you.  
