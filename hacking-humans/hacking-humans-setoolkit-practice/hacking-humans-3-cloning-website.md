@@ -1,5 +1,3 @@
-__Cloning Website__
-
 Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login?lang=en`{{execute}} This is the website we will be cloning.  
 
 You will see a message as shown below: ```[*] Cloning the website: https://twitter.com/login?lang=en
