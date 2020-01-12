@@ -22,7 +22,7 @@ In our case, since the instance is running within our learning environment, we w
 
 Copy the URL address that is displayed and paste it into a text editor like Notepad (in Windows) or TextEdit in Mac so you can delete the words "https://" and the last training forward slash ("/") at the end of the URL address you copied.
 NOTE: YOUR URL MAY BE DIFFERENT, but it should look something like when you paste it `https://2886795365-8099-cykoria01.environments.katacoda.com/`. It should be changed to `2886795365-8099-cykoria01.environments.katacoda.com`
-Now copy this URL and paste it into the setoolkit window where it asks for IP Address
+Now copy this URL `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com` and paste it into the setoolkit window where it asks for IP Address
 NOTE: The reason we do the step of using a text editor to strip out the unneeded protocol ("https://") and trailing forward slash ("/") is because it is difficult to edit within the setoolkit window once the URL is pasted.
 
 Press `enter` to continue.
