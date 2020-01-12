@@ -25,14 +25,6 @@ Press <kbd>enter</kbd> or <kbd>return</kbd> to continue.
 
 Now you should be prompted with a text that talks about the website we will be cloning. Type in `https://twitter.com/login?lang=en`{{execute}} This is the website we will be cloning.  
 
-You will see a message like `[*] Cloning the website: https://twitter.com/login?lang=en
-[*] This could take a little bit...
-
-The best way to use this attack is if username and password form
-fields are available. Regardless, this captures all POSTs on a website.
-[*] You may need to copy /var/www/* into /var/www/html depending on where your directory structure is.
-Press {return} if you understand what we're saying here.`  
-
 Press <kbd>enter</kbd> or <kbd>return</kbd> to continue.  
 
 You will see a message like `[*] Apache is set to ON - everything will be placed in your web root directory of apache.
@@ -41,6 +33,15 @@ You will see a message like `[*] Apache is set to ON - everything will be placed
 [!] Apache may be not running, do you want SET to start the process? [y/n]:`  
 
 Press `y`{{execute}} to start the `Apache` web server.  
+
+You will see a message like `[*] Cloning the website:
+[The URL being cloned will be displayed here]
+[*] This could take a little bit...
+
+The best way to use this attack is if username and password form
+fields are available. Regardless, this captures all POSTs on a website.
+[*] You may need to copy /var/www/* into /var/www/html depending on where your directory structure is.
+Press {return} if you understand what we're saying here.`
 
 Now you will see something like `Apache webserver is set to ON. Copying over PHP file to the website.
 Please note that all output from the harvester will be found under apache_dir/harvester_date.txt
