@@ -1,4 +1,4 @@
-Here you will learn about some Social Engineering techniques using the Social Engineering Toolkit (setoolkit)
+Here you will learn about how hackers use social engineering techniques to hack humans, using the Social Engineering Toolkit (setoolkit).  
 
 Are you ready for learning?  
 
