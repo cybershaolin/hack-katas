@@ -1,5 +1,3 @@
-In this course, you have learned phishing a Social Engineering Technique.
+In this lesson, you have learned about social engineering techniques using the setoolkit program.     
 
-In the endresult of this training kwoon you should have the credentials harvested in the `/var/www/html` folder.
-
-Hope you had fun learning! :-)
+Hope you had fun learning! :-)  
