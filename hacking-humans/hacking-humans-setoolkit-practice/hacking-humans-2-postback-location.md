@@ -4,10 +4,10 @@ Normally, we can use `ifconfig` to find the IP address of the webserver, but sin
 
 This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com`{{copy}}  
 
-Select the URL shown above and Copy it using the keyboard shortcut (<kbd>Ctrl</kbd>+<kbd>C</kbd>).  
+Select the URL shown above and Copy it using the keyboard shortcut (<kbd>Ctrl</kbd>+<kbd>C</kbd>) if you are using Windows keyboard or <kbd>Cmd</kbd>+<kbd>C</kbd> if you are using Mac keyboard. You can also just click on the url above to copy it.
 
-Now in the terminal, where it asks for IP address, using the keyboard shortcuts, (<kbd>Ctrl</kbd>+<kbd>V</kbd>) paste that URL.  
+Now in the terminal, where it asks for IP address, using the keyboard shortcuts, (<kbd>Ctrl</kbd>+<kbd>V</kbd> for Windows or <kbd>Cmd</kbd>+<kbd>V</kbd> for Macs), paste that copied URL.  
 
-Then press `enter` or `return`to continue.  
+Then press the `enter` or `return` key to continue.  
 
 Go to the next step.  
