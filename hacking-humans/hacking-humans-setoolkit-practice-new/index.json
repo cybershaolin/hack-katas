@@ -1,7 +1,7 @@
 {
-  "pathwayTitle": "Hacking Humans",
+  "pathwayTitle": "Hacking Humans - New",
   "title": "Hacking Humans - New",
-  "description": "Hacking Techniques to Exploit Trust - New",
+  "description": "Hacking Techniques to Exploit Trust",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
@@ -73,4 +73,5 @@
   "backend": {
     "imageid": "docker-swarm"
   }
+
 }
