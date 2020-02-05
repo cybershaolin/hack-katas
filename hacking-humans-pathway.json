@@ -8,6 +8,12 @@
         "course_id": "hacking-humans-setoolkit-practice",
         "title": "Social Engineering Practice",
         "description": "Use Social Engineer Toolkit to phish unsuspecting victims."
+      },
+      {
+        "pathway_id": "hacking-humans",
+        "course_id": "hacking-humans-setoolkit-practice-new",
+        "title": "Social Engineering Practice - New",
+        "description": "Use Social Engineer Toolkit to phish unsuspecting victims - New."
       }
     ]
   }
