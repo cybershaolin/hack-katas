@@ -1,9 +1,9 @@
-Now you should be prompted for a URL (website) to clone. Type in `https://twitter.com/login?lang=en`{{execute}} and press the `enter` or `return` key. This is the website we will be cloning.  
+Now you should be prompted for a URL (website) to clone. Type in `https://www.facebook.com/login`{{execute}} and press the `enter` or `return` key. This is the website we will be cloning.  
 
 You will see a message as shown below:
 ```
 [*] Cloning the website:
-https://twitter.com/login?lang=en
+https://www.facebook.com/login
 [*] This could take a little bit...
 
 The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.
