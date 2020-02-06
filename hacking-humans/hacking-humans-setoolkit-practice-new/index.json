@@ -71,12 +71,11 @@
       {"name": "Skyward", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
       {"name": "CyberShaolin", "href": "https://www.cybershaolin.org"}
     ],
-    "uilayout": "terminal-iframe",
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mCyberShaolin Main Terminal\u001b[m\r\n"
   },
   "backend":
   {
-    "imageid": "docker",
-    "port": 80
+    "imageid": "docker"
   }
 }
