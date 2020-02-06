@@ -71,9 +71,9 @@
     ],
     "dashboards":
     [
-      {"name": "Hacker Website", "href": "https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "Skyward Clone Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
-      {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}
+      {"name": "Hacker Site", "href": "https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "Skyward", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "CyberShaolin", "href": "https://www.cybershaolin.org"}
     ],
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mCyberShaolin Main Terminal\u001b[m\r\n"
