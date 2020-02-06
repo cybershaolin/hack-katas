@@ -80,7 +80,8 @@
     "uimessage1": "\u001b[32mCyberShaolin Terminal 1.\u001b[m\r\n",
     "uimessage2": "\u001b[32mCyberShaolin Terminal 2.\u001b[m\r\n"
   },
-  "backend": {
+  "backend":
+  {
     "imageid": "docker"
   }
 
