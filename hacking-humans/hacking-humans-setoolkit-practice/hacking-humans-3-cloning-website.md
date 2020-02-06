@@ -3,7 +3,7 @@ Now you should be prompted for a URL (website) to clone. Type in `https://www.fa
 You will see a message as shown below:
 ```
 [*] Cloning the website:
-https://www.facebook.com/login
+https://login.facebook.com/login.php
 [*] This could take a little bit...
 
 The best way to use this attack is if username and password form fields are available. Regardless, this captures all POSTs on a website.
