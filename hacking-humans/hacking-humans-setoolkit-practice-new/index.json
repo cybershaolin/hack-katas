@@ -71,7 +71,7 @@
     ],
     "dashboards": [
       {"name": "Hacker Website", "href": "https://[[HOST1_SUBDOMAIN]]-8099-[[KATACODA_HOST1]].environments.katacoda.com"},
-      {"name": "Cloned Website", "href": "https://[[HOST2_SUBDOMAIN]]-80-[[KATACODA_HOST2]].environments.katacoda.com"}
+      {"name": "Cloned Website", "href": "https://[[HOST2_SUBDOMAIN]]-80-[[KATACODA_HOST2]].environments.katacoda.com"},
       {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
     "uilayout": "terminal-terminal",
     "uimessage1": "\u001b[32mCyberShaolin Terminal 1.\u001b[m\r\n",
