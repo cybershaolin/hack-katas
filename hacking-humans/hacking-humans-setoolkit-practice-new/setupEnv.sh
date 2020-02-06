@@ -1,4 +1,7 @@
-echo "Creating Cybershaolin Learning Environment"
+echo "Creating Cybershaolin Learning Environment."
+echo "Please be patient until you see a command prompt (a dollar sign) at the end of the setup."
+echo " "
+
 docker run --name CyberShaolin_dockerSET -dit -p 8099:80 cybershaolin/hacking-humans:social
 docker ps -a --filter "name=CyberShaolin_dockerSET"
 docker exec -it $(docker ps -aq --filter "name=CyberShaolin_dockerSET") /bin/bash
