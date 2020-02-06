@@ -65,20 +65,23 @@
     "showdashboard": true,
     "hideintro": true,
     "hidefinish":true,
-    "terminals": [
+    "terminals":
+    [
       {"name": "Terminal 2", "target": "host01"},
       {"name": "Skyward Clone", "command": "docker run -d -p 80:80 cybershaolin/nginx:skyward", "target": "host01"}
     ],
-    "dashboards": [
-      {"name": "Hacker Website", "href": "https://[[HOST1_SUBDOMAIN]]-8099-[[KATACODA_HOST1]].environments.katacoda.com"},
-      {"name": "Cloned Website", "href": "https://[[HOST2_SUBDOMAIN]]-80-[[KATACODA_HOST2]].environments.katacoda.com"},
-      {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}],
-    "uilayout": "terminal-terminal",
+    "dashboards":
+    [
+      {"name": "Hacker Website", "href": "https://[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "Cloned Website", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"},
+      {"name": "CyberShaolin Website", "href": "https://www.cybershaolin.org"}
+    ],
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mCyberShaolin Terminal 1.\u001b[m\r\n",
     "uimessage2": "\u001b[32mCyberShaolin Terminal 2.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "docker-swarm"
+    "imageid": "docker"
   }
 
 }
