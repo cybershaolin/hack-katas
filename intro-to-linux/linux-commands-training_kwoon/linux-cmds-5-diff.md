@@ -1,4 +1,4 @@
-`diif` or `diff3` stands for Difference.  
+`diff` or `diff3` stands for Difference.  
 
 The `diff` command compares two files line by line. The `diff3` command compares three files line by line.   
 
