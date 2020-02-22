@@ -5,8 +5,13 @@ To read the contents of the harvester file, we can use the `cat` command.
 
 Once you `cat` that file, you should see in it the credentials that were logged (as shown below).
 `(
-    [username_or_email] => CyberShaolin
-    [password] => cyb3rn1nja
+    [UserName] => CyberShaolin
+    [Password] => cyb3rn1nja
+    [Area] =>
+    [Controller] =>
+    [Action] =>
+    [Tab] =>
+    [Id] =>
 )`  
 
 You have learned how to successfully social engineer and hack someone!  
