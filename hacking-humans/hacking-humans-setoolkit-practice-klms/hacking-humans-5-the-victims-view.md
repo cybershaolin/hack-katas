@@ -4,6 +4,6 @@ Now think of yourself as the one receiving the phishing email and you clicked on
 
 To simulate this, click on the tab that reads `Hacker Website` (this will be the phishing website that a real user would get redirected to when they click on the phishing link). It will open up the page and show the cloned (fake) website. You should see the fake website looks like the website that was cloned.
 
-Type in a `username` and `password`. It can be anything. For example you can use `CyberShaolin` for the username and `cyb3rn1nja` for the password. It is advisable that for this learning purposes, you do NOT use your real twitter account username and/or password. Click on the button that says `Login`.  
+Type in a `username` and `password`. It can be anything. For example you can use `CyberShaolin` for the username and `cyb3rn1nja` for the password. It is advisable that for this learning purposes, you do NOT use your real skyward account username and/or password. Click on the button that says `Login`.  
 
 Go to the next step.    
