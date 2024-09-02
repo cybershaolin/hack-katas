@@ -3,9 +3,9 @@ As a hacker, once the victim enters their username and password, we will want to
 Normally, we can use `ifconfig` to find the IP address of the webserver, but since we are using a cloud learning environment, we will use the URL that is generated for us when the learning environment is setup.
 
 <!-- This URL is `[[HOST_SUBDOMAIN]]-8099-[[KATACODA_HOST]].environments.katacoda.com`{{copy}} -->
-This URL is [Copy Postback URL]{{TRAFFIC_HOST1_8099}}
+This URL is {{TRAFFIC_HOST1_8099}}
 
-You can click on the `Copy Postback Url` to copy it or you can also select the URL shown above and copy it using the keyboard shortcut (<kbd>Ctrl</kbd>+<kbd>C</kbd>) if you are using Windows keyboard or <kbd>Cmd</kbd>+<kbd>C</kbd> if you are using Mac keyboard.  
+Highlight the URL above and copy it by right-clicking on it and selecting Copy Link address or by using the keyboard shortcut (<kbd>Ctrl</kbd>+<kbd>C</kbd>) if you are using Windows keyboard or <kbd>Cmd</kbd>+<kbd>C</kbd> if you are using Mac keyboard.  
 
 Now in the terminal, where it asks for IP address, using the keyboard shortcuts, (<kbd>Ctrl</kbd>+<kbd>V</kbd> for Windows or <kbd>Cmd</kbd>+<kbd>V</kbd> for Macs), paste that copied URL.  
 
